@@ -1,0 +1,2459 @@
+[1617] 01 Jan 20:28:14.298 * Increased maximum number of open files to 10032 (it was originally set to 2560).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 2.8.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in stand alone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 9736
+ |    `-._   `._    /     _.-'    |     PID: 1617
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[1617] 01 Jan 20:28:14.304 # Server started, Redis version 2.8.9
+[1617] 01 Jan 20:28:14.304 * The server is now ready to accept connections on port 9736
+[1617] 01 Jan 20:28:14.457 - Accepted ::1:50660
+[1617] 01 Jan 20:28:14.457 - 1 clients connected (0 slaves), 969808 bytes in use
+[1617] 01 Jan 20:28:14.458 * DB saved on disk
+[1617] 01 Jan 20:28:14.459 * DB saved on disk
+[1617] 01 Jan 20:28:14.461 * DB saved on disk
+[1617] 01 Jan 20:28:14.463 * DB saved on disk
+[1617] 01 Jan 20:28:14.465 * DB saved on disk
+[1617] 01 Jan 20:28:14.466 * DB saved on disk
+[1617] 01 Jan 20:28:14.468 * DB saved on disk
+[1617] 01 Jan 20:28:14.470 * DB saved on disk
+[1617] 01 Jan 20:28:14.471 * DB saved on disk
+[1617] 01 Jan 20:28:14.473 * DB saved on disk
+[1617] 01 Jan 20:28:14.476 * DB saved on disk
+[1617] 01 Jan 20:28:14.480 * DB saved on disk
+[1617] 01 Jan 20:28:14.482 * DB saved on disk
+[1617] 01 Jan 20:28:14.491 * DB saved on disk
+[1617] 01 Jan 20:28:14.493 * DB saved on disk
+[1617] 01 Jan 20:28:14.496 * DB saved on disk
+[1617] 01 Jan 20:28:14.500 * DB saved on disk
+[1617] 01 Jan 20:28:14.504 * DB saved on disk
+[1617] 01 Jan 20:28:14.508 * DB saved on disk
+[1617] 01 Jan 20:28:14.509 * DB saved on disk
+[1617] 01 Jan 20:28:14.518 * DB saved on disk
+[1617] 01 Jan 20:28:14.520 * DB saved on disk
+[1617] 01 Jan 20:28:14.523 * DB saved on disk
+[1617] 01 Jan 20:28:14.525 * DB saved on disk
+[1617] 01 Jan 20:28:14.527 * DB saved on disk
+[1617] 01 Jan 20:28:14.528 * DB saved on disk
+[1617] 01 Jan 20:28:14.529 * DB saved on disk
+[1617] 01 Jan 20:28:14.531 * DB saved on disk
+[1617] 01 Jan 20:28:14.532 * DB saved on disk
+[1617] 01 Jan 20:28:14.534 - Client closed connection
+[1617] 01 Jan 20:28:14.535 - Accepted ::1:50661
+[1617] 01 Jan 20:28:14.537 * DB saved on disk
+[1617] 01 Jan 20:28:14.538 - Client closed connection
+[1617] 01 Jan 20:28:14.539 - Accepted ::1:50662
+[1617] 01 Jan 20:28:14.540 * DB saved on disk
+[1617] 01 Jan 20:28:14.545 - Accepted ::1:50663
+[1617] 01 Jan 20:28:14.548 - Client closed connection
+[1617] 01 Jan 20:28:14.553 - Accepted ::1:50664
+[1617] 01 Jan 20:28:14.555 - Client closed connection
+[1617] 01 Jan 20:28:14.558 * DB saved on disk
+[1617] 01 Jan 20:28:14.560 - Client closed connection
+[1617] 01 Jan 20:28:14.561 - Accepted ::1:50665
+[1617] 01 Jan 20:28:14.562 * DB saved on disk
+[1617] 01 Jan 20:28:14.563 * DB saved on disk
+[1617] 01 Jan 20:28:14.564 - Client closed connection
+[1617] 01 Jan 20:28:14.565 - Accepted ::1:50666
+[1617] 01 Jan 20:28:14.567 * DB saved on disk
+[1617] 01 Jan 20:28:14.573 - Accepted ::1:50667
+[1617] 01 Jan 20:28:14.577 - Client closed connection
+[1617] 01 Jan 20:28:14.580 * DB saved on disk
+[1617] 01 Jan 20:28:14.582 - Client closed connection
+[1617] 01 Jan 20:28:14.582 - Accepted ::1:50668
+[1617] 01 Jan 20:28:14.584 - Client closed connection
+[1617] 01 Jan 20:28:14.585 - Accepted ::1:50669
+[1617] 01 Jan 20:28:14.586 * DB saved on disk
+[1617] 01 Jan 20:28:14.587 - Client closed connection
+[1617] 01 Jan 20:28:14.588 - Accepted ::1:50670
+[1617] 01 Jan 20:28:14.589 - Client closed connection
+[1617] 01 Jan 20:28:14.590 - Accepted ::1:50671
+[1617] 01 Jan 20:28:14.592 * DB saved on disk
+[1617] 01 Jan 20:28:14.593 - Client closed connection
+[1617] 01 Jan 20:28:14.593 - Accepted ::1:50672
+[1617] 01 Jan 20:28:14.595 * DB saved on disk
+[1617] 01 Jan 20:28:14.596 - Client closed connection
+[1617] 01 Jan 20:28:14.596 - Accepted ::1:50673
+[1617] 01 Jan 20:28:14.635 * DB saved on disk
+[1617] 01 Jan 20:28:14.636 - Client closed connection
+[1617] 01 Jan 20:28:14.637 - Accepted ::1:50674
+[1617] 01 Jan 20:28:14.639 * DB saved on disk
+[1617] 01 Jan 20:28:14.643 - Accepted ::1:50675
+[1617] 01 Jan 20:28:14.649 - Accepted ::1:50676
+[1617] 01 Jan 20:28:14.651 - Client closed connection
+[1617] 01 Jan 20:28:14.651 - Accepted ::1:50677
+[1617] 01 Jan 20:28:14.654 - Client closed connection
+[1617] 01 Jan 20:28:14.755 - Client closed connection
+[1617] 01 Jan 20:28:14.762 * DB saved on disk
+[1617] 01 Jan 20:28:14.767 - Accepted ::1:50678
+[1617] 01 Jan 20:28:14.773 - Accepted ::1:50679
+[1617] 01 Jan 20:28:14.775 - Client closed connection
+[1617] 01 Jan 20:28:14.776 - Accepted ::1:50680
+[1617] 01 Jan 20:28:14.778 - Client closed connection
+[1617] 01 Jan 20:28:14.880 - Client closed connection
+[1617] 01 Jan 20:28:14.886 * DB saved on disk
+[1617] 01 Jan 20:28:14.891 - Accepted ::1:50681
+[1617] 01 Jan 20:28:14.898 - Accepted ::1:50682
+[1617] 01 Jan 20:28:14.900 - Client closed connection
+[1617] 01 Jan 20:28:14.901 - Accepted ::1:50683
+[1617] 01 Jan 20:28:15.911 - Client closed connection
+[1617] 01 Jan 20:28:15.915 - Client closed connection
+[1617] 01 Jan 20:28:15.921 * DB saved on disk
+[1617] 01 Jan 20:28:15.926 - Accepted ::1:50685
+[1617] 01 Jan 20:28:15.933 - Accepted ::1:50686
+[1617] 01 Jan 20:28:15.935 - Client closed connection
+[1617] 01 Jan 20:28:15.936 - Accepted ::1:50687
+[1617] 01 Jan 20:28:16.949 - Client closed connection
+[1617] 01 Jan 20:28:16.953 - Client closed connection
+[1617] 01 Jan 20:28:16.958 * DB saved on disk
+[1617] 01 Jan 20:28:16.960 * DB saved on disk
+[1617] 01 Jan 20:28:16.962 - Client closed connection
+[1617] 01 Jan 20:28:16.962 - Accepted ::1:50688
+[1617] 01 Jan 20:28:16.965 * DB saved on disk
+[1617] 01 Jan 20:28:16.966 * DB saved on disk
+[1617] 01 Jan 20:28:16.967 - Client closed connection
+[1617] 01 Jan 20:28:16.967 - Accepted ::1:50689
+[1617] 01 Jan 20:28:16.969 * DB saved on disk
+[1617] 01 Jan 20:28:16.970 * DB saved on disk
+[1617] 01 Jan 20:28:16.972 - Client closed connection
+[1617] 01 Jan 20:28:16.972 - Accepted ::1:50690
+[1617] 01 Jan 20:28:16.974 * DB saved on disk
+[1617] 01 Jan 20:28:16.975 * DB saved on disk
+[1617] 01 Jan 20:28:16.976 - Client closed connection
+[1617] 01 Jan 20:28:16.977 - Accepted ::1:50691
+[1617] 01 Jan 20:28:16.978 * DB saved on disk
+[1617] 01 Jan 20:28:16.979 * DB saved on disk
+[1617] 01 Jan 20:28:16.980 - Client closed connection
+[1617] 01 Jan 20:28:16.981 - Accepted ::1:50692
+[1617] 01 Jan 20:28:16.983 * DB saved on disk
+[1617] 01 Jan 20:28:16.984 - Client closed connection
+[1617] 01 Jan 20:28:16.984 - Accepted ::1:50693
+[1617] 01 Jan 20:28:16.987 * DB saved on disk
+[1617] 01 Jan 20:28:16.988 - Client closed connection
+[1617] 01 Jan 20:28:16.989 - Accepted ::1:50694
+[1617] 01 Jan 20:28:16.990 - Client closed connection
+[1617] 01 Jan 20:28:16.990 - Accepted ::1:50695
+[1617] 01 Jan 20:28:16.993 * DB saved on disk
+[1617] 01 Jan 20:28:16.994 - Client closed connection
+[1617] 01 Jan 20:28:16.995 - Accepted ::1:50696
+[1617] 01 Jan 20:28:16.996 - Client closed connection
+[1617] 01 Jan 20:28:16.997 - Accepted ::1:50697
+[1617] 01 Jan 20:28:16.999 * DB saved on disk
+[1617] 01 Jan 20:28:17.022 - Client closed connection
+[1617] 01 Jan 20:28:17.023 - Accepted ::1:50698
+[1617] 01 Jan 20:28:17.028 * DB saved on disk
+[1617] 01 Jan 20:28:17.033 - Client closed connection
+[1617] 01 Jan 20:28:17.034 - Accepted ::1:50699
+[1617] 01 Jan 20:28:17.035 - Client closed connection
+[1617] 01 Jan 20:28:17.035 - Accepted ::1:50700
+[1617] 01 Jan 20:28:17.037 - Client closed connection
+[1617] 01 Jan 20:28:17.038 - Accepted ::1:50701
+[1617] 01 Jan 20:28:17.039 - Client closed connection
+[1617] 01 Jan 20:28:17.040 - Accepted ::1:50702
+[1617] 01 Jan 20:28:17.042 - Client closed connection
+[1617] 01 Jan 20:28:17.042 - Accepted ::1:50703
+[1617] 01 Jan 20:28:17.044 - Client closed connection
+[1617] 01 Jan 20:28:17.045 - Accepted ::1:50704
+[1617] 01 Jan 20:28:17.046 - Client closed connection
+[1617] 01 Jan 20:28:17.047 - Accepted ::1:50705
+[1617] 01 Jan 20:28:17.049 - Client closed connection
+[1617] 01 Jan 20:28:17.049 - Accepted ::1:50706
+[1617] 01 Jan 20:28:17.051 - Client closed connection
+[1617] 01 Jan 20:28:17.051 - Accepted ::1:50707
+[1617] 01 Jan 20:28:17.053 - Client closed connection
+[1617] 01 Jan 20:28:17.053 - Accepted ::1:50708
+[1617] 01 Jan 20:28:17.055 - Client closed connection
+[1617] 01 Jan 20:28:17.056 - Accepted ::1:50709
+[1617] 01 Jan 20:28:17.059 * DB saved on disk
+[1617] 01 Jan 20:28:17.063 - Client closed connection
+[1617] 01 Jan 20:28:17.064 - Accepted ::1:50710
+[1617] 01 Jan 20:28:17.067 - Client closed connection
+[1617] 01 Jan 20:28:17.067 - Accepted ::1:50711
+[1617] 01 Jan 20:28:17.070 - Client closed connection
+[1617] 01 Jan 20:28:17.071 - Accepted ::1:50712
+[1617] 01 Jan 20:28:17.073 - Client closed connection
+[1617] 01 Jan 20:28:17.074 - Accepted ::1:50713
+[1617] 01 Jan 20:28:17.076 * DB saved on disk
+[1617] 01 Jan 20:28:17.081 * DB saved on disk
+[1617] 01 Jan 20:28:17.390 - Client closed connection
+[1617] 01 Jan 20:28:17.391 - Accepted ::1:50714
+[1617] 01 Jan 20:28:17.395 - Client closed connection
+[1617] 01 Jan 20:28:17.395 - Accepted ::1:50715
+[1617] 01 Jan 20:28:17.398 - Client closed connection
+[1617] 01 Jan 20:28:17.399 - Accepted ::1:50716
+[1617] 01 Jan 20:28:17.402 - Client closed connection
+[1617] 01 Jan 20:28:17.403 - Accepted ::1:50717
+[1617] 01 Jan 20:28:17.406 - Client closed connection
+[1617] 01 Jan 20:28:17.407 - Accepted ::1:50718
+[1617] 01 Jan 20:28:17.410 * DB saved on disk
+[1617] 01 Jan 20:28:17.413 - Client closed connection
+[1617] 01 Jan 20:28:17.414 - Accepted ::1:50719
+[1617] 01 Jan 20:28:17.416 - Client closed connection
+[1617] 01 Jan 20:28:17.417 - Accepted ::1:50720
+[1617] 01 Jan 20:28:17.419 - Client closed connection
+[1617] 01 Jan 20:28:17.419 - Accepted ::1:50721
+[1617] 01 Jan 20:28:17.422 - Client closed connection
+[1617] 01 Jan 20:28:17.422 - Accepted ::1:50722
+[1617] 01 Jan 20:28:17.425 - Client closed connection
+[1617] 01 Jan 20:28:17.425 - Accepted ::1:50723
+[1617] 01 Jan 20:28:17.428 * DB saved on disk
+[1617] 01 Jan 20:28:17.434 * DB saved on disk
+[1617] 01 Jan 20:28:17.467 - Client closed connection
+[1617] 01 Jan 20:28:17.468 - Accepted ::1:50724
+[1617] 01 Jan 20:28:17.478 * DB saved on disk
+[1617] 01 Jan 20:28:17.480 - Client closed connection
+[1617] 01 Jan 20:28:17.481 - Accepted ::1:50725
+[1617] 01 Jan 20:28:17.483 * DB saved on disk
+[1617] 01 Jan 20:28:17.484 * DB saved on disk
+[1617] 01 Jan 20:28:17.488 - Accepted ::1:50726
+[1617] 01 Jan 20:28:17.492 - Client closed connection
+[1617] 01 Jan 20:28:17.495 * DB saved on disk
+[1617] 01 Jan 20:28:17.497 * DB saved on disk
+[1617] 01 Jan 20:28:17.498 * DB saved on disk
+[1617] 01 Jan 20:28:17.499 * DB saved on disk
+[1617] 01 Jan 20:28:17.501 * DB saved on disk
+[1617] 01 Jan 20:28:17.503 * DB saved on disk
+[1617] 01 Jan 20:28:17.506 - Accepted ::1:50727
+[1617] 01 Jan 20:28:17.513 - Accepted ::1:50728
+[1617] 01 Jan 20:28:17.515 - Client closed connection
+[1617] 01 Jan 20:28:17.526 - Client closed connection
+[1617] 01 Jan 20:28:17.572 * DB saved on disk
+[1617] 01 Jan 20:28:17.575 - Accepted ::1:50729
+[1617] 01 Jan 20:28:17.583 - Accepted ::1:50730
+[1617] 01 Jan 20:28:17.586 - Client closed connection
+[1617] 01 Jan 20:28:17.597 - Client closed connection
+[1617] 01 Jan 20:28:17.644 * DB saved on disk
+[1617] 01 Jan 20:28:17.646 * DB saved on disk
+[1617] 01 Jan 20:28:17.647 - Client closed connection
+[1617] 01 Jan 20:28:17.648 - Accepted ::1:50731
+[1617] 01 Jan 20:28:17.650 * DB saved on disk
+[1617] 01 Jan 20:28:17.653 - Accepted ::1:50732
+[1617] 01 Jan 20:28:17.660 - Accepted ::1:50733
+[1617] 01 Jan 20:28:17.672 - Client closed connection
+[1617] 01 Jan 20:28:17.731 - Client closed connection
+[1617] 01 Jan 20:28:17.776 * DB saved on disk
+[1617] 01 Jan 20:28:17.782 - Accepted ::1:50734
+[1617] 01 Jan 20:28:17.786 - Client closed connection
+[1617] 01 Jan 20:28:17.787 - Accepted ::1:50735
+[1617] 01 Jan 20:28:17.788 - Client closed connection
+[1617] 01 Jan 20:28:17.789 - Accepted ::1:50736
+[1617] 01 Jan 20:28:17.791 - Client closed connection
+[1617] 01 Jan 20:28:17.796 * DB saved on disk
+[1617] 01 Jan 20:28:17.798 - Client closed connection
+[1617] 01 Jan 20:28:17.799 - Accepted ::1:50737
+[1617] 01 Jan 20:28:17.800 - Client closed connection
+[1617] 01 Jan 20:28:17.801 - Accepted ::1:50738
+[1617] 01 Jan 20:28:17.803 * DB saved on disk
+[1617] 01 Jan 20:28:17.805 - Client closed connection
+[1617] 01 Jan 20:28:17.806 - Accepted ::1:50739
+[1617] 01 Jan 20:28:17.808 * DB saved on disk
+[1617] 01 Jan 20:28:17.810 * DB saved on disk
+[1617] 01 Jan 20:28:17.812 * DB saved on disk
+[1617] 01 Jan 20:28:17.814 * DB saved on disk
+[1617] 01 Jan 20:28:17.817 - Accepted ::1:50740
+[1617] 01 Jan 20:28:17.823 - Accepted ::1:50741
+[1617] 01 Jan 20:28:17.825 - Client closed connection
+[1617] 01 Jan 20:28:17.825 - Accepted ::1:50742
+[1617] 01 Jan 20:28:18.330 - Client closed connection
+[1617] 01 Jan 20:28:18.334 - Client closed connection
+[1617] 01 Jan 20:28:18.340 * DB saved on disk
+[1617] 01 Jan 20:28:18.345 - Accepted ::1:50743
+[1617] 01 Jan 20:28:18.351 - Accepted ::1:50744
+[1617] 01 Jan 20:28:18.354 - Client closed connection
+[1617] 01 Jan 20:28:18.354 - Accepted ::1:50745
+[1617] 01 Jan 20:28:19.367 - Client closed connection
+[1617] 01 Jan 20:28:19.468 - Client closed connection
+[1617] 01 Jan 20:28:19.474 * DB saved on disk
+[1617] 01 Jan 20:28:19.478 * DB saved on disk
+[1617] 01 Jan 20:28:19.481 - Client closed connection
+[1617] 01 Jan 20:28:19.481 - Accepted ::1:50746
+[1617] 01 Jan 20:28:19.484 * DB saved on disk
+[1617] 01 Jan 20:28:19.486 - Client closed connection
+[1617] 01 Jan 20:28:19.487 - Accepted ::1:50747
+[1617] 01 Jan 20:28:19.489 * DB saved on disk
+[1617] 01 Jan 20:28:19.496 * DB saved on disk
+[1617] 01 Jan 20:28:19.497 - DB 0: 2 keys (0 volatile) in 4 slots HT.
+[1617] 01 Jan 20:28:19.497 - 1 clients connected (0 slaves), 1002640 bytes in use
+[1617] 01 Jan 20:28:19.502 * DB saved on disk
+[1617] 01 Jan 20:28:19.504 - Client closed connection
+[1617] 01 Jan 20:28:19.505 - Accepted ::1:50748
+[1617] 01 Jan 20:28:19.507 * DB saved on disk
+[1617] 01 Jan 20:28:19.509 - Client closed connection
+[1617] 01 Jan 20:28:19.510 - Accepted ::1:50749
+[1617] 01 Jan 20:28:19.511 * DB saved on disk
+[1617] 01 Jan 20:28:19.513 - Client closed connection
+[1617] 01 Jan 20:28:19.514 - Accepted ::1:50750
+[1617] 01 Jan 20:28:19.519 * DB saved on disk
+[1617] 01 Jan 20:28:19.520 - Client closed connection
+[1617] 01 Jan 20:28:19.521 - Accepted ::1:50751
+[1617] 01 Jan 20:28:19.523 * DB saved on disk
+[1617] 01 Jan 20:28:19.525 - Client closed connection
+[1617] 01 Jan 20:28:19.525 - Accepted ::1:50752
+[1617] 01 Jan 20:28:19.527 * DB saved on disk
+[1617] 01 Jan 20:28:19.531 - Accepted ::1:50753
+[1617] 01 Jan 20:28:19.538 - Accepted ::1:50754
+[1617] 01 Jan 20:28:19.540 - Client closed connection
+[1617] 01 Jan 20:28:19.540 - Accepted ::1:50755
+[1617] 01 Jan 20:28:19.544 - Client closed connection
+[1617] 01 Jan 20:28:19.547 - Client closed connection
+[1617] 01 Jan 20:28:24.531 - DB 0: 4 keys (0 volatile) in 8 slots HT.
+[1617] 01 Jan 20:28:24.531 - 1 clients connected (0 slaves), 970192 bytes in use
+[1617] 01 Jan 20:28:25.044 * DB saved on disk
+[1617] 01 Jan 20:28:25.048 * DB saved on disk
+[1617] 01 Jan 20:28:25.050 - Client closed connection
+[1617] 01 Jan 20:28:25.051 - Accepted ::1:50757
+[1617] 01 Jan 20:28:25.053 - Client closed connection
+[1617] 01 Jan 20:28:25.054 - Accepted fe80::1:50758
+[1617] 01 Jan 20:28:25.058 - Client closed connection
+[1617] 01 Jan 20:28:25.058 - Accepted ::1:50759
+[1617] 01 Jan 20:28:25.061 - Client closed connection
+[1617] 01 Jan 20:28:25.061 - Accepted ::1:50760
+[1617] 01 Jan 20:28:25.063 * DB saved on disk
+[1617] 01 Jan 20:28:25.065 - Client closed connection
+[1617] 01 Jan 20:28:25.065 - Accepted ::1:50761
+[1617] 01 Jan 20:28:25.067 * DB saved on disk
+[1617] 01 Jan 20:28:25.069 - Client closed connection
+[1617] 01 Jan 20:28:25.069 - Accepted ::1:50762
+[1617] 01 Jan 20:28:25.072 * DB saved on disk
+[1617] 01 Jan 20:28:25.075 * DB saved on disk
+[1617] 01 Jan 20:28:25.078 * DB saved on disk
+[1617] 01 Jan 20:28:25.080 - Client closed connection
+[1617] 01 Jan 20:28:25.080 - Accepted ::1:50763
+[1617] 01 Jan 20:28:25.082 * DB saved on disk
+[1617] 01 Jan 20:28:25.084 - Client closed connection
+[1617] 01 Jan 20:28:25.084 - Accepted ::1:50764
+[1617] 01 Jan 20:28:25.088 * DB saved on disk
+[1617] 01 Jan 20:28:25.091 * DB saved on disk
+[1617] 01 Jan 20:28:25.093 * DB saved on disk
+[1617] 01 Jan 20:28:25.095 - Client closed connection
+[1617] 01 Jan 20:28:25.096 - Accepted ::1:50765
+[1617] 01 Jan 20:28:25.098 * DB saved on disk
+[1617] 01 Jan 20:28:25.099 * DB saved on disk
+[1617] 01 Jan 20:28:25.100 * DB saved on disk
+[1617] 01 Jan 20:28:25.101 * DB saved on disk
+[1617] 01 Jan 20:28:25.102 * DB saved on disk
+[1617] 01 Jan 20:28:25.107 - Accepted ::1:50766
+[1617] 01 Jan 20:28:25.115 - Accepted ::1:50767
+[1617] 01 Jan 20:28:25.133 - Client closed connection
+[1617] 01 Jan 20:28:25.256 - Client closed connection
+[1617] 01 Jan 20:28:25.264 * DB saved on disk
+[1617] 01 Jan 20:28:25.266 - Client closed connection
+[1617] 01 Jan 20:28:25.266 - Accepted ::1:50768
+[1617] 01 Jan 20:28:25.268 * DB saved on disk
+[1617] 01 Jan 20:28:25.274 * DB saved on disk
+[1617] 01 Jan 20:28:25.281 * DB saved on disk
+[1617] 01 Jan 20:28:25.283 * DB saved on disk
+[1617] 01 Jan 20:28:25.283 * DB saved on disk
+[1617] 01 Jan 20:28:25.285 * DB saved on disk
+[1617] 01 Jan 20:28:25.291 * DB saved on disk
+[1617] 01 Jan 20:28:25.297 - Accepted ::1:50769
+[1617] 01 Jan 20:28:25.300 - Client closed connection
+[1617] 01 Jan 20:28:25.306 - Accepted ::1:50770
+[1617] 01 Jan 20:28:25.309 - Client closed connection
+[1617] 01 Jan 20:28:25.313 * DB saved on disk
+[1617] 01 Jan 20:28:25.315 * DB saved on disk
+[1617] 01 Jan 20:28:25.338 * DB saved on disk
+[1617] 01 Jan 20:28:25.340 - Client closed connection
+[1617] 01 Jan 20:28:25.341 - Accepted fe80::1:50771
+[1617] 01 Jan 20:28:25.342 - Client closed connection
+[1617] 01 Jan 20:28:25.343 - Accepted ::1:50772
+[1617] 01 Jan 20:28:25.473 - Client closed connection
+[1617] 01 Jan 20:28:29.563 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:28:29.564 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:28:34.596 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:28:34.596 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:28:39.630 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:28:39.631 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:28:44.661 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:28:44.662 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:28:49.694 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:28:49.694 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:28:54.741 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:28:54.741 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:28:59.782 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:28:59.782 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:29:04.822 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:29:04.822 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:29:09.858 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:29:09.858 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:29:14.891 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:29:14.891 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:29:19.926 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:29:19.926 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:29:24.972 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:29:24.972 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:29:30.009 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:29:30.009 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:29:35.053 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:29:35.053 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:29:40.088 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:29:40.088 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:29:45.120 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:29:45.121 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:29:50.157 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:29:50.157 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:29:55.203 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:29:55.203 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:30:00.235 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:30:00.235 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:30:05.275 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:30:05.275 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:30:10.301 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:30:10.301 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:30:15.337 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:30:15.337 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:30:20.366 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:30:20.366 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:30:25.399 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:30:25.399 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:30:30.438 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:30:30.438 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:30:35.477 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:30:35.478 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:30:40.497 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:30:40.497 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:30:45.529 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:30:45.529 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:30:50.562 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:30:50.562 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:30:55.603 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:30:55.603 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:31:00.639 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:31:00.640 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:31:05.663 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:31:05.663 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:31:10.705 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:31:10.705 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:31:15.725 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:31:15.726 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:31:20.758 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:31:20.758 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:31:25.791 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:31:25.791 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:31:30.823 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:31:30.823 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:31:35.846 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:31:35.846 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:31:40.875 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:31:40.875 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:31:45.905 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:31:45.905 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:31:50.937 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:31:50.937 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:31:55.954 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:31:55.954 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:32:00.995 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:32:00.995 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:32:06.019 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:32:06.019 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:32:11.054 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:32:11.054 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:32:16.084 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:32:16.084 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:32:21.116 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:32:21.117 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:32:26.135 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:32:26.135 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:32:31.177 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:32:31.177 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:32:36.203 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:32:36.203 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:32:41.231 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:32:41.231 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:32:46.263 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:32:46.264 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:32:51.296 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:32:51.297 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:32:56.329 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:32:56.329 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:33:01.361 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:33:01.362 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:33:06.396 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:33:06.396 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:33:11.441 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:33:11.442 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:33:16.481 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:33:16.481 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:33:21.509 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:33:21.509 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:33:26.040 * 10 changes in 300 seconds. Saving...
+[1617] 01 Jan 20:33:26.041 * Background saving started by pid 1851
+[1851] 01 Jan 20:33:26.042 * DB saved on disk
+[1617] 01 Jan 20:33:26.142 * Background saving terminated with success
+[1617] 01 Jan 20:33:26.546 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:33:26.546 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:33:31.589 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:33:31.589 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:33:36.624 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:33:36.624 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:33:41.664 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:33:41.664 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:33:46.695 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:33:46.695 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:33:51.723 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:33:51.723 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:33:56.759 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:33:56.759 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:34:01.789 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:34:01.789 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:34:06.826 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:34:06.826 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:34:11.864 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:34:11.864 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:34:16.908 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:34:16.908 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:34:21.949 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:34:21.949 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:34:26.972 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:34:26.972 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:34:32.000 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:34:32.000 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:34:37.037 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:34:37.037 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:34:42.065 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:34:42.066 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:34:47.105 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:34:47.105 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:34:52.148 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:34:52.148 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:34:57.180 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:34:57.181 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:35:02.213 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:35:02.213 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:35:07.251 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:35:07.252 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:35:12.290 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:35:12.290 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:35:17.311 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:35:17.311 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:35:22.344 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:35:22.344 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:35:27.383 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:35:27.384 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:35:32.411 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:35:32.412 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:35:37.455 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:35:37.455 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:35:42.491 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:35:42.491 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:35:47.524 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:35:47.524 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:35:52.556 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:35:52.557 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:35:57.589 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:35:57.590 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:36:02.630 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:36:02.630 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:36:07.669 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:36:07.669 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:36:12.707 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:36:12.707 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:36:17.752 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:36:17.752 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:36:22.789 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:36:22.790 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:36:27.825 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:36:27.826 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:36:32.874 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:36:32.874 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:36:37.901 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:36:37.901 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:36:42.933 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:36:42.934 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:36:47.977 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:36:47.977 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:36:53.008 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:36:53.008 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:36:58.031 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:36:58.032 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:37:03.073 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:37:03.073 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:37:08.100 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:37:08.100 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:37:13.130 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:37:13.130 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:37:18.162 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:37:18.162 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:37:23.195 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:37:23.195 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:37:28.231 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:37:28.232 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:37:33.274 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:37:33.275 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:37:38.307 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:37:38.307 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:37:43.337 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:37:43.337 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:37:48.366 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:37:48.366 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:37:53.401 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:37:53.401 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:37:58.436 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:37:58.436 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:38:03.456 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:38:03.456 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:38:08.489 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:38:08.489 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:38:13.522 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:38:13.522 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:38:18.556 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:38:18.556 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:38:23.587 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:38:23.587 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:38:28.622 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:38:28.622 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:38:33.663 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:38:33.663 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:38:38.685 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:38:38.685 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:38:43.724 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:38:43.724 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:38:48.756 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:38:48.756 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:38:53.783 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:38:53.783 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:38:58.816 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:38:58.816 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:39:03.848 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:39:03.848 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:39:08.884 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:39:08.884 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:39:13.926 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:39:13.926 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:39:18.947 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:39:18.947 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:39:23.988 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:39:23.988 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:39:29.012 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:39:29.012 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:39:34.045 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:39:34.045 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:39:39.077 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:39:39.077 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:39:44.110 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:39:44.110 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:39:49.143 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:39:49.143 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:39:54.175 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:39:54.175 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:39:59.208 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:39:59.208 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:40:04.241 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:40:04.241 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:40:09.273 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:40:09.273 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:40:14.323 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:40:14.323 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:40:19.355 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:40:19.356 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:40:24.396 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:40:24.396 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:40:29.421 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:40:29.421 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:40:34.456 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:40:34.456 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:40:39.486 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:40:39.486 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:40:44.519 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:40:44.519 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:40:49.551 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:40:49.552 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:40:54.584 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:40:54.584 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:40:59.617 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:40:59.617 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:41:04.657 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:41:04.657 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:41:09.682 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:41:09.682 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:41:14.719 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:41:14.720 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:41:19.748 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:41:19.748 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:41:24.785 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:41:24.785 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:41:29.818 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:41:29.818 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:41:34.862 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:41:34.863 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:41:39.902 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:41:39.902 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:41:44.933 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:41:44.933 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:41:49.961 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:41:49.962 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:41:54.995 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:41:54.995 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:42:00.029 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:42:00.029 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:42:05.070 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:42:05.070 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:42:10.100 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:42:10.100 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:42:15.124 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:42:15.124 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:42:20.158 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:42:20.159 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:42:25.193 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:42:25.193 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:42:30.228 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:42:30.228 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:42:35.256 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:42:35.256 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:42:40.290 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:42:40.291 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:42:45.325 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:42:45.326 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:42:50.361 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:42:50.361 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:42:55.402 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:42:55.402 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:43:00.446 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:43:00.446 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:43:05.467 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:43:05.468 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:43:10.503 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:43:10.503 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:43:15.533 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:43:15.533 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:43:20.565 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:43:20.566 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:43:25.610 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:43:25.610 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:43:30.639 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:43:30.639 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:43:35.680 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:43:35.680 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:43:40.713 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:43:40.713 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:43:45.746 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:43:45.746 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:43:50.779 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:43:50.779 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:43:55.821 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:43:55.821 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:44:00.844 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:44:00.844 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:44:05.881 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:44:05.882 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:44:10.920 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:44:10.921 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:44:15.958 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:44:15.958 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:44:20.994 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:44:20.994 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:44:26.030 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:44:26.030 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:44:31.068 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:44:31.069 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:44:36.089 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:44:36.089 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:44:41.132 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:44:41.132 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:44:46.159 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:44:46.159 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:44:51.198 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:44:51.198 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:44:56.240 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:44:56.240 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:45:01.279 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:45:01.279 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:45:06.316 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:45:06.316 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:45:11.360 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:45:11.360 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:45:16.401 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:45:16.401 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:45:21.433 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:45:21.433 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:45:26.478 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:45:26.478 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:45:31.498 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:45:31.499 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:45:36.534 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:45:36.534 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:45:41.564 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:45:41.564 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:45:46.606 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:45:46.606 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:45:51.641 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:45:51.641 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:45:56.679 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:45:56.679 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:46:01.718 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:46:01.719 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:46:06.761 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:46:06.761 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:46:11.794 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:46:11.794 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:46:16.826 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:46:16.827 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:46:21.860 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:46:21.860 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:46:26.892 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:46:26.892 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:46:31.924 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:46:31.925 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:46:36.964 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:46:36.964 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:46:42.007 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:46:42.007 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:46:47.047 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:46:47.048 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:46:52.080 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:46:52.080 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:46:57.118 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:46:57.119 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:47:02.154 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:47:02.154 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:47:07.187 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:47:07.187 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:47:12.222 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:47:12.222 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:47:17.257 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:47:17.257 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:47:22.299 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:47:22.299 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:47:27.333 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:47:27.334 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:47:32.367 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:47:32.367 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:47:37.399 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:47:37.399 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:47:42.432 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:47:42.432 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:47:47.465 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:47:47.465 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:47:52.510 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:47:52.510 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:47:57.548 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:47:57.549 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:48:02.400 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:48:02.400 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:48:07.433 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:48:07.433 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:48:12.470 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:48:12.470 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:48:17.509 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:48:17.510 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:48:22.538 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:48:22.538 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:48:27.578 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:48:27.579 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:48:32.607 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:48:32.607 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:48:37.629 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:48:37.629 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:48:42.666 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:48:42.666 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:48:47.712 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:48:47.712 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:48:52.754 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:48:52.754 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:48:57.785 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:48:57.786 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:49:02.825 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:49:02.826 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:49:07.868 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:49:07.868 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:49:12.903 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:49:12.903 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:49:17.937 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:49:17.937 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:49:22.974 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:49:22.974 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:49:28.018 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:49:28.018 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:49:33.054 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:49:33.054 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:49:38.090 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:49:38.090 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:49:43.129 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:49:43.129 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:49:48.155 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:49:48.156 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:49:53.188 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:49:53.188 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:49:58.221 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:49:58.221 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:50:03.262 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:50:03.262 - 0 clients connected (0 slaves), 953472 bytes in use
+[2401] 01 Jan 20:50:06.708 * Increased maximum number of open files to 10032 (it was originally set to 2560).
+[2401] 01 Jan 20:50:06.709 # Creating Server TCP listening socket *:9736: bind: Address already in use
+[1617] 01 Jan 20:50:06.852 - Accepted ::1:51400
+[1617] 01 Jan 20:50:06.853 * DB saved on disk
+[1617] 01 Jan 20:50:06.855 * DB saved on disk
+[1617] 01 Jan 20:50:06.857 * DB saved on disk
+[1617] 01 Jan 20:50:06.858 * DB saved on disk
+[1617] 01 Jan 20:50:06.860 * DB saved on disk
+[1617] 01 Jan 20:50:06.861 * DB saved on disk
+[1617] 01 Jan 20:50:07.175 * DB saved on disk
+[1617] 01 Jan 20:50:07.178 * DB saved on disk
+[1617] 01 Jan 20:50:07.180 * DB saved on disk
+[1617] 01 Jan 20:50:07.182 * DB saved on disk
+[1617] 01 Jan 20:50:07.186 * DB saved on disk
+[1617] 01 Jan 20:50:07.190 * DB saved on disk
+[1617] 01 Jan 20:50:07.193 * DB saved on disk
+[1617] 01 Jan 20:50:07.200 * DB saved on disk
+[1617] 01 Jan 20:50:07.202 * DB saved on disk
+[1617] 01 Jan 20:50:07.204 * DB saved on disk
+[1617] 01 Jan 20:50:07.207 * DB saved on disk
+[1617] 01 Jan 20:50:07.211 * DB saved on disk
+[1617] 01 Jan 20:50:07.214 * DB saved on disk
+[1617] 01 Jan 20:50:07.216 * DB saved on disk
+[1617] 01 Jan 20:50:07.226 * DB saved on disk
+[1617] 01 Jan 20:50:07.228 * DB saved on disk
+[1617] 01 Jan 20:50:07.229 * DB saved on disk
+[1617] 01 Jan 20:50:07.231 * DB saved on disk
+[1617] 01 Jan 20:50:07.232 * DB saved on disk
+[1617] 01 Jan 20:50:07.233 * DB saved on disk
+[1617] 01 Jan 20:50:07.234 * DB saved on disk
+[1617] 01 Jan 20:50:07.235 * DB saved on disk
+[1617] 01 Jan 20:50:07.237 * DB saved on disk
+[1617] 01 Jan 20:50:07.243 - Accepted ::1:51402
+[1617] 01 Jan 20:50:07.246 - Client closed connection
+[1617] 01 Jan 20:50:07.248 * DB saved on disk
+[1617] 01 Jan 20:50:07.250 - Client closed connection
+[1617] 01 Jan 20:50:07.250 - Accepted ::1:51403
+[1617] 01 Jan 20:50:07.254 * DB saved on disk
+[1617] 01 Jan 20:50:07.260 - Accepted ::1:51404
+[1617] 01 Jan 20:50:07.262 - Client closed connection
+[1617] 01 Jan 20:50:07.267 - Accepted ::1:51405
+[1617] 01 Jan 20:50:07.270 - Client closed connection
+[1617] 01 Jan 20:50:07.273 * DB saved on disk
+[1617] 01 Jan 20:50:07.274 - Client closed connection
+[1617] 01 Jan 20:50:07.275 - Accepted ::1:51406
+[1617] 01 Jan 20:50:07.277 * DB saved on disk
+[1617] 01 Jan 20:50:07.278 - Client closed connection
+[1617] 01 Jan 20:50:07.279 - Accepted ::1:51407
+[1617] 01 Jan 20:50:07.280 - Client closed connection
+[1617] 01 Jan 20:50:07.281 - Accepted ::1:51408
+[1617] 01 Jan 20:50:07.282 * DB saved on disk
+[1617] 01 Jan 20:50:07.283 - Client closed connection
+[1617] 01 Jan 20:50:07.284 - Accepted ::1:51409
+[1617] 01 Jan 20:50:07.286 * DB saved on disk
+[1617] 01 Jan 20:50:07.287 - Client closed connection
+[1617] 01 Jan 20:50:07.288 - Accepted ::1:51410
+[1617] 01 Jan 20:50:07.289 - Client closed connection
+[1617] 01 Jan 20:50:07.290 - Accepted ::1:51411
+[1617] 01 Jan 20:50:07.292 * DB saved on disk
+[1617] 01 Jan 20:50:07.294 - Client closed connection
+[1617] 01 Jan 20:50:07.295 - Accepted ::1:51412
+[1617] 01 Jan 20:50:07.297 * DB saved on disk
+[1617] 01 Jan 20:50:07.299 - Client closed connection
+[1617] 01 Jan 20:50:07.299 - Accepted ::1:51413
+[1617] 01 Jan 20:50:07.610 * DB saved on disk
+[1617] 01 Jan 20:50:07.612 - Client closed connection
+[1617] 01 Jan 20:50:07.613 - Accepted ::1:51414
+[1617] 01 Jan 20:50:07.616 * DB saved on disk
+[1617] 01 Jan 20:50:07.624 - Client closed connection
+[1617] 01 Jan 20:50:07.625 - Accepted ::1:51415
+[1617] 01 Jan 20:50:07.644 - Client closed connection
+[1617] 01 Jan 20:50:07.645 - Accepted ::1:51416
+[1617] 01 Jan 20:50:07.670 * DB saved on disk
+[1617] 01 Jan 20:50:07.673 - Client closed connection
+[1617] 01 Jan 20:50:07.674 - Accepted ::1:51417
+[1617] 01 Jan 20:50:07.677 * DB saved on disk
+[1617] 01 Jan 20:50:07.681 - Accepted ::1:51418
+[1617] 01 Jan 20:50:07.689 - Accepted ::1:51419
+[1617] 01 Jan 20:50:07.694 - Client closed connection
+[1617] 01 Jan 20:50:07.696 - Client closed connection
+[1617] 01 Jan 20:50:08.297 - DB 0: 4 keys (0 volatile) in 8 slots HT.
+[1617] 01 Jan 20:50:08.297 - 1 clients connected (0 slaves), 970256 bytes in use
+[1617] 01 Jan 20:50:13.033 * DB saved on disk
+[1617] 01 Jan 20:50:13.039 - Accepted ::1:51422
+[1617] 01 Jan 20:50:13.047 - Accepted ::1:51423
+[1617] 01 Jan 20:50:13.050 - Client closed connection
+[1617] 01 Jan 20:50:13.052 - Client closed connection
+[1617] 01 Jan 20:50:13.331 - DB 0: 4 keys (0 volatile) in 8 slots HT.
+[1617] 01 Jan 20:50:13.331 - 1 clients connected (0 slaves), 970256 bytes in use
+[1617] 01 Jan 20:50:18.363 - DB 0: 4 keys (0 volatile) in 8 slots HT.
+[1617] 01 Jan 20:50:18.363 - 1 clients connected (0 slaves), 970256 bytes in use
+[1617] 01 Jan 20:50:19.075 * DB saved on disk
+[1617] 01 Jan 20:50:19.080 - Accepted ::1:51432
+[1617] 01 Jan 20:50:19.088 - Accepted ::1:51433
+[1617] 01 Jan 20:50:19.091 - Client closed connection
+[1617] 01 Jan 20:50:19.093 - Client closed connection
+[1617] 01 Jan 20:50:23.402 - DB 0: 4 keys (0 volatile) in 8 slots HT.
+[1617] 01 Jan 20:50:23.402 - 1 clients connected (0 slaves), 970256 bytes in use
+[1617] 01 Jan 20:50:25.022 * DB saved on disk
+[1617] 01 Jan 20:50:25.028 - Accepted ::1:51435
+[1617] 01 Jan 20:50:25.037 - Accepted ::1:51436
+[1617] 01 Jan 20:50:25.041 - Client closed connection
+[1617] 01 Jan 20:50:25.044 - Client closed connection
+[2460] 01 Jan 20:50:28.104 * Increased maximum number of open files to 10032 (it was originally set to 2560).
+[2460] 01 Jan 20:50:28.106 # Creating Server TCP listening socket *:9736: bind: Address already in use
+[1617] 01 Jan 20:50:28.238 - Accepted ::1:51438
+[1617] 01 Jan 20:50:28.239 * DB saved on disk
+[1617] 01 Jan 20:50:28.241 * DB saved on disk
+[1617] 01 Jan 20:50:28.243 * DB saved on disk
+[1617] 01 Jan 20:50:28.245 * DB saved on disk
+[1617] 01 Jan 20:50:28.247 * DB saved on disk
+[1617] 01 Jan 20:50:28.250 * DB saved on disk
+[1617] 01 Jan 20:50:28.253 * DB saved on disk
+[1617] 01 Jan 20:50:28.256 * DB saved on disk
+[1617] 01 Jan 20:50:28.257 * DB saved on disk
+[1617] 01 Jan 20:50:28.259 * DB saved on disk
+[1617] 01 Jan 20:50:28.262 * DB saved on disk
+[1617] 01 Jan 20:50:28.265 * DB saved on disk
+[1617] 01 Jan 20:50:28.267 * DB saved on disk
+[1617] 01 Jan 20:50:28.274 * DB saved on disk
+[1617] 01 Jan 20:50:28.276 * DB saved on disk
+[1617] 01 Jan 20:50:28.277 * DB saved on disk
+[1617] 01 Jan 20:50:28.279 * DB saved on disk
+[1617] 01 Jan 20:50:28.283 * DB saved on disk
+[1617] 01 Jan 20:50:28.286 * DB saved on disk
+[1617] 01 Jan 20:50:28.288 * DB saved on disk
+[1617] 01 Jan 20:50:28.297 * DB saved on disk
+[1617] 01 Jan 20:50:28.299 * DB saved on disk
+[1617] 01 Jan 20:50:28.301 * DB saved on disk
+[1617] 01 Jan 20:50:28.303 * DB saved on disk
+[1617] 01 Jan 20:50:28.305 * DB saved on disk
+[1617] 01 Jan 20:50:28.307 * DB saved on disk
+[1617] 01 Jan 20:50:28.307 * DB saved on disk
+[1617] 01 Jan 20:50:28.308 * DB saved on disk
+[1617] 01 Jan 20:50:28.310 * DB saved on disk
+[1617] 01 Jan 20:50:28.311 * DB saved on disk
+[1617] 01 Jan 20:50:28.312 - Client closed connection
+[1617] 01 Jan 20:50:28.313 - Accepted ::1:51439
+[1617] 01 Jan 20:50:28.314 - Client closed connection
+[1617] 01 Jan 20:50:28.315 - Accepted ::1:51440
+[1617] 01 Jan 20:50:28.317 * DB saved on disk
+[1617] 01 Jan 20:50:28.318 - Client closed connection
+[1617] 01 Jan 20:50:28.318 - Accepted ::1:51441
+[1617] 01 Jan 20:50:28.320 - Client closed connection
+[1617] 01 Jan 20:50:28.321 - Accepted ::1:51442
+[1617] 01 Jan 20:50:28.323 * DB saved on disk
+[1617] 01 Jan 20:50:28.324 - Client closed connection
+[1617] 01 Jan 20:50:28.325 - Accepted ::1:51443
+[1617] 01 Jan 20:50:28.327 * DB saved on disk
+[1617] 01 Jan 20:50:28.332 - Accepted ::1:51444
+[1617] 01 Jan 20:50:28.336 - Client closed connection
+[1617] 01 Jan 20:50:28.339 * DB saved on disk
+[1617] 01 Jan 20:50:28.341 - Client closed connection
+[1617] 01 Jan 20:50:28.341 - Accepted ::1:51445
+[1617] 01 Jan 20:50:28.343 * DB saved on disk
+[1617] 01 Jan 20:50:28.344 - Client closed connection
+[1617] 01 Jan 20:50:28.345 - Accepted ::1:51446
+[1617] 01 Jan 20:50:28.346 * DB saved on disk
+[1617] 01 Jan 20:50:28.347 - Client closed connection
+[1617] 01 Jan 20:50:28.348 - Accepted ::1:51447
+[1617] 01 Jan 20:50:28.350 * DB saved on disk
+[1617] 01 Jan 20:50:28.352 - Client closed connection
+[1617] 01 Jan 20:50:28.352 - Accepted ::1:51448
+[1617] 01 Jan 20:50:28.357 * DB saved on disk
+[1617] 01 Jan 20:50:28.364 - Accepted ::1:51449
+[1617] 01 Jan 20:50:28.367 - Client closed connection
+[1617] 01 Jan 20:50:28.372 - Accepted ::1:51450
+[1617] 01 Jan 20:50:28.376 - Client closed connection
+[1617] 01 Jan 20:50:28.380 * DB saved on disk
+[1617] 01 Jan 20:50:28.381 - Client closed connection
+[1617] 01 Jan 20:50:28.382 - Accepted ::1:51451
+[1617] 01 Jan 20:50:28.423 * DB saved on disk
+[1617] 01 Jan 20:50:28.424 - Client closed connection
+[1617] 01 Jan 20:50:28.425 - Accepted ::1:51452
+[1617] 01 Jan 20:50:28.427 * DB saved on disk
+[1617] 01 Jan 20:50:28.431 - Accepted ::1:51453
+[1617] 01 Jan 20:50:28.438 - Accepted ::1:51454
+[1617] 01 Jan 20:50:28.438 - DB 0: 5 keys (0 volatile) in 8 slots HT.
+[1617] 01 Jan 20:50:28.438 - 4 clients connected (0 slaves), 1089024 bytes in use
+[1617] 01 Jan 20:50:28.440 - Client closed connection
+[1617] 01 Jan 20:50:28.441 - Accepted ::1:51455
+[1617] 01 Jan 20:50:33.446 * DB saved on disk
+[1617] 01 Jan 20:50:33.446 - Client closed connection
+[1617] 01 Jan 20:50:33.448 * DB saved on disk
+[1617] 01 Jan 20:50:33.449 - Client closed connection
+[1617] 01 Jan 20:50:33.449 - Client closed connection
+[1617] 01 Jan 20:50:33.450 - Accepted ::1:51457
+[1617] 01 Jan 20:50:33.452 * DB saved on disk
+[1617] 01 Jan 20:50:33.453 * DB saved on disk
+[1617] 01 Jan 20:50:33.455 - Client closed connection
+[1617] 01 Jan 20:50:33.456 - Accepted ::1:51458
+[1617] 01 Jan 20:50:33.457 * DB saved on disk
+[1617] 01 Jan 20:50:33.458 * DB saved on disk
+[1617] 01 Jan 20:50:33.459 - Client closed connection
+[1617] 01 Jan 20:50:33.460 - Accepted ::1:51459
+[1617] 01 Jan 20:50:33.462 * DB saved on disk
+[1617] 01 Jan 20:50:33.462 * DB saved on disk
+[1617] 01 Jan 20:50:33.464 - Client closed connection
+[1617] 01 Jan 20:50:33.464 - Accepted ::1:51460
+[1617] 01 Jan 20:50:33.466 * DB saved on disk
+[1617] 01 Jan 20:50:33.467 * DB saved on disk
+[1617] 01 Jan 20:50:33.467 - 2 clients connected (0 slaves), 1019744 bytes in use
+[1617] 01 Jan 20:50:33.468 - Client closed connection
+[1617] 01 Jan 20:50:33.469 - Accepted ::1:51461
+[1617] 01 Jan 20:50:33.471 * DB saved on disk
+[1617] 01 Jan 20:50:33.472 - Client closed connection
+[1617] 01 Jan 20:50:33.473 - Accepted ::1:51462
+[1617] 01 Jan 20:50:33.475 * DB saved on disk
+[1617] 01 Jan 20:50:33.476 - Client closed connection
+[1617] 01 Jan 20:50:33.477 - Accepted ::1:51463
+[1617] 01 Jan 20:50:33.478 - Client closed connection
+[1617] 01 Jan 20:50:33.479 - Accepted ::1:51464
+[1617] 01 Jan 20:50:33.481 * DB saved on disk
+[1617] 01 Jan 20:50:33.483 - Client closed connection
+[1617] 01 Jan 20:50:33.483 - Accepted ::1:51465
+[1617] 01 Jan 20:50:33.487 - Client closed connection
+[1617] 01 Jan 20:50:33.488 - Accepted ::1:51466
+[1617] 01 Jan 20:50:33.490 * DB saved on disk
+[1617] 01 Jan 20:50:33.827 - Client closed connection
+[1617] 01 Jan 20:50:33.828 - Accepted ::1:51467
+[1617] 01 Jan 20:50:33.831 * DB saved on disk
+[1617] 01 Jan 20:50:33.834 - Client closed connection
+[1617] 01 Jan 20:50:33.834 - Accepted ::1:51468
+[1617] 01 Jan 20:50:33.836 - Client closed connection
+[1617] 01 Jan 20:50:33.837 - Accepted ::1:51469
+[1617] 01 Jan 20:50:33.839 - Client closed connection
+[1617] 01 Jan 20:50:33.840 - Accepted ::1:51470
+[1617] 01 Jan 20:50:33.842 - Client closed connection
+[1617] 01 Jan 20:50:33.842 - Accepted ::1:51471
+[1617] 01 Jan 20:50:33.844 - Client closed connection
+[1617] 01 Jan 20:50:33.844 - Accepted ::1:51472
+[1617] 01 Jan 20:50:33.846 - Client closed connection
+[1617] 01 Jan 20:50:33.847 - Accepted ::1:51473
+[1617] 01 Jan 20:50:33.848 - Client closed connection
+[1617] 01 Jan 20:50:33.849 - Accepted ::1:51474
+[1617] 01 Jan 20:50:33.850 - Client closed connection
+[1617] 01 Jan 20:50:33.851 - Accepted ::1:51475
+[1617] 01 Jan 20:50:33.853 - Client closed connection
+[1617] 01 Jan 20:50:33.853 - Accepted ::1:51476
+[1617] 01 Jan 20:50:33.856 - Client closed connection
+[1617] 01 Jan 20:50:33.857 - Accepted ::1:51477
+[1617] 01 Jan 20:50:33.859 - Client closed connection
+[1617] 01 Jan 20:50:33.859 - Accepted ::1:51478
+[1617] 01 Jan 20:50:33.863 * DB saved on disk
+[1617] 01 Jan 20:50:33.866 - Client closed connection
+[1617] 01 Jan 20:50:33.867 - Accepted ::1:51479
+[1617] 01 Jan 20:50:33.869 - Client closed connection
+[1617] 01 Jan 20:50:33.870 - Accepted ::1:51480
+[1617] 01 Jan 20:50:33.872 - Client closed connection
+[1617] 01 Jan 20:50:33.873 - Accepted ::1:51481
+[1617] 01 Jan 20:50:33.875 - Client closed connection
+[1617] 01 Jan 20:50:33.876 - Accepted ::1:51482
+[1617] 01 Jan 20:50:33.878 * DB saved on disk
+[1617] 01 Jan 20:50:33.885 * DB saved on disk
+[1617] 01 Jan 20:50:33.888 - Client closed connection
+[1617] 01 Jan 20:50:33.889 - Accepted ::1:51483
+[1617] 01 Jan 20:50:33.891 - Client closed connection
+[1617] 01 Jan 20:50:33.891 - Accepted ::1:51484
+[1617] 01 Jan 20:50:33.894 - Client closed connection
+[1617] 01 Jan 20:50:33.894 - Accepted ::1:51485
+[1617] 01 Jan 20:50:33.897 - Client closed connection
+[1617] 01 Jan 20:50:33.897 - Accepted ::1:51486
+[1617] 01 Jan 20:50:33.900 - Client closed connection
+[1617] 01 Jan 20:50:33.901 - Accepted ::1:51487
+[1617] 01 Jan 20:50:33.904 * DB saved on disk
+[1617] 01 Jan 20:50:33.907 - Client closed connection
+[1617] 01 Jan 20:50:33.907 - Accepted ::1:51488
+[1617] 01 Jan 20:50:33.910 - Client closed connection
+[1617] 01 Jan 20:50:33.910 - Accepted ::1:51489
+[1617] 01 Jan 20:50:33.913 - Client closed connection
+[1617] 01 Jan 20:50:33.913 - Accepted ::1:51490
+[1617] 01 Jan 20:50:33.916 - Client closed connection
+[1617] 01 Jan 20:50:33.917 - Accepted ::1:51491
+[1617] 01 Jan 20:50:33.919 - Client closed connection
+[1617] 01 Jan 20:50:33.920 - Accepted ::1:51492
+[1617] 01 Jan 20:50:33.923 * DB saved on disk
+[1617] 01 Jan 20:50:33.930 * DB saved on disk
+[1617] 01 Jan 20:50:33.968 - Client closed connection
+[1617] 01 Jan 20:50:33.968 - Accepted ::1:51493
+[1617] 01 Jan 20:50:33.980 * DB saved on disk
+[1617] 01 Jan 20:50:33.982 - Client closed connection
+[1617] 01 Jan 20:50:33.983 - Accepted ::1:51494
+[1617] 01 Jan 20:50:33.985 * DB saved on disk
+[1617] 01 Jan 20:50:33.986 * DB saved on disk
+[1617] 01 Jan 20:50:33.993 - Accepted ::1:51495
+[1617] 01 Jan 20:50:33.996 - Client closed connection
+[1617] 01 Jan 20:50:33.999 * DB saved on disk
+[1617] 01 Jan 20:50:34.000 * DB saved on disk
+[1617] 01 Jan 20:50:34.002 * DB saved on disk
+[1617] 01 Jan 20:50:34.003 * DB saved on disk
+[1617] 01 Jan 20:50:34.006 * DB saved on disk
+[1617] 01 Jan 20:50:34.009 * DB saved on disk
+[1617] 01 Jan 20:50:34.012 - Accepted ::1:51496
+[1617] 01 Jan 20:50:34.018 - Accepted ::1:51497
+[1617] 01 Jan 20:50:34.021 - Client closed connection
+[1617] 01 Jan 20:50:34.066 - Client closed connection
+[1617] 01 Jan 20:50:34.072 * DB saved on disk
+[1617] 01 Jan 20:50:34.078 - Accepted ::1:51498
+[1617] 01 Jan 20:50:34.080 * DB saved on disk
+[1617] 01 Jan 20:50:34.082 - Client closed connection
+[1617] 01 Jan 20:50:34.084 - Accepted ::1:51499
+[1617] 01 Jan 20:50:34.090 - Accepted ::1:51500
+[1617] 01 Jan 20:50:34.094 - Client closed connection
+[1617] 01 Jan 20:50:34.142 - Client closed connection
+[1617] 01 Jan 20:50:34.156 * DB saved on disk
+[1617] 01 Jan 20:50:34.159 * DB saved on disk
+[1617] 01 Jan 20:50:34.162 - Client closed connection
+[1617] 01 Jan 20:50:34.163 - Accepted ::1:51501
+[1617] 01 Jan 20:50:34.165 * DB saved on disk
+[1617] 01 Jan 20:50:34.168 - Accepted ::1:51502
+[1617] 01 Jan 20:50:34.174 - Accepted ::1:51503
+[1617] 01 Jan 20:50:34.215 - Client closed connection
+[1617] 01 Jan 20:50:34.287 - Client closed connection
+[1617] 01 Jan 20:50:34.297 * DB saved on disk
+[1617] 01 Jan 20:50:34.302 - Accepted ::1:51504
+[1617] 01 Jan 20:50:34.305 - Client closed connection
+[1617] 01 Jan 20:50:34.306 - Accepted ::1:51505
+[1617] 01 Jan 20:50:34.308 - Client closed connection
+[1617] 01 Jan 20:50:34.309 - Accepted ::1:51506
+[1617] 01 Jan 20:50:34.312 - Client closed connection
+[1617] 01 Jan 20:50:34.318 * DB saved on disk
+[1617] 01 Jan 20:50:34.320 - Client closed connection
+[1617] 01 Jan 20:50:34.320 - Accepted ::1:51507
+[1617] 01 Jan 20:50:34.322 - Client closed connection
+[1617] 01 Jan 20:50:34.323 - Accepted ::1:51508
+[1617] 01 Jan 20:50:34.325 * DB saved on disk
+[1617] 01 Jan 20:50:34.327 - Client closed connection
+[1617] 01 Jan 20:50:34.327 - Accepted ::1:51509
+[1617] 01 Jan 20:50:34.329 * DB saved on disk
+[1617] 01 Jan 20:50:34.333 * DB saved on disk
+[1617] 01 Jan 20:50:34.336 * DB saved on disk
+[1617] 01 Jan 20:50:34.338 * DB saved on disk
+[1617] 01 Jan 20:50:34.343 - Accepted ::1:51510
+[1617] 01 Jan 20:50:34.353 - Client closed connection
+[1617] 01 Jan 20:50:38.486 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1617] 01 Jan 20:50:38.486 - 2 clients connected (0 slaves), 987360 bytes in use
+[1617] 01 Jan 20:50:40.102 * DB saved on disk
+[1617] 01 Jan 20:50:40.102 * DB saved on disk
+[1617] 01 Jan 20:50:40.108 - Accepted ::1:51512
+[1617] 01 Jan 20:50:40.108 - Accepted ::1:51513
+[1617] 01 Jan 20:50:40.116 - Accepted ::1:51514
+[1617] 01 Jan 20:50:40.118 - Client closed connection
+[1617] 01 Jan 20:50:40.119 - Accepted ::1:51515
+[1617] 01 Jan 20:50:40.119 - Client closed connection
+[1617] 01 Jan 20:50:41.128 - Client closed connection
+[1617] 01 Jan 20:50:41.133 - Client closed connection
+[1617] 01 Jan 20:50:41.139 * DB saved on disk
+[1617] 01 Jan 20:50:41.144 - Accepted ::1:51518
+[1617] 01 Jan 20:50:41.151 - Accepted ::1:51519
+[1617] 01 Jan 20:50:41.153 - Client closed connection
+[1617] 01 Jan 20:50:41.154 - Accepted ::1:51520
+[1617] 01 Jan 20:50:42.163 - Client closed connection
+[1617] 01 Jan 20:50:42.167 - Client closed connection
+[1617] 01 Jan 20:50:42.173 * DB saved on disk
+[1617] 01 Jan 20:50:42.175 * DB saved on disk
+[1617] 01 Jan 20:50:42.176 - Client closed connection
+[1617] 01 Jan 20:50:42.177 - Accepted ::1:51521
+[1617] 01 Jan 20:50:42.180 * DB saved on disk
+[1617] 01 Jan 20:50:42.181 * DB saved on disk
+[1617] 01 Jan 20:50:42.182 - Client closed connection
+[1617] 01 Jan 20:50:42.183 - Accepted ::1:51522
+[1617] 01 Jan 20:50:42.185 * DB saved on disk
+[1617] 01 Jan 20:50:42.186 * DB saved on disk
+[1617] 01 Jan 20:50:42.187 - Client closed connection
+[1617] 01 Jan 20:50:42.188 - Accepted ::1:51523
+[1617] 01 Jan 20:50:42.190 * DB saved on disk
+[1617] 01 Jan 20:50:42.191 * DB saved on disk
+[1617] 01 Jan 20:50:42.192 - Client closed connection
+[1617] 01 Jan 20:50:42.192 - Accepted ::1:51524
+[1617] 01 Jan 20:50:42.194 * DB saved on disk
+[1617] 01 Jan 20:50:42.195 * DB saved on disk
+[1617] 01 Jan 20:50:42.197 - Client closed connection
+[1617] 01 Jan 20:50:42.198 - Accepted ::1:51525
+[1617] 01 Jan 20:50:42.200 * DB saved on disk
+[1617] 01 Jan 20:50:42.202 - Client closed connection
+[1617] 01 Jan 20:50:42.203 - Accepted ::1:51526
+[1617] 01 Jan 20:50:42.205 * DB saved on disk
+[1617] 01 Jan 20:50:42.207 - Client closed connection
+[1617] 01 Jan 20:50:42.207 - Accepted ::1:51527
+[1617] 01 Jan 20:50:42.209 - Client closed connection
+[1617] 01 Jan 20:50:42.209 - Accepted ::1:51528
+[1617] 01 Jan 20:50:42.212 * DB saved on disk
+[1617] 01 Jan 20:50:42.214 - Client closed connection
+[1617] 01 Jan 20:50:42.215 - Accepted ::1:51529
+[1617] 01 Jan 20:50:42.217 - Client closed connection
+[1617] 01 Jan 20:50:42.217 - Accepted ::1:51531
+[1617] 01 Jan 20:50:42.220 * DB saved on disk
+[1617] 01 Jan 20:50:42.243 - Client closed connection
+[1617] 01 Jan 20:50:42.244 - Accepted ::1:51532
+[1617] 01 Jan 20:50:42.249 * DB saved on disk
+[1617] 01 Jan 20:50:42.255 - Client closed connection
+[1617] 01 Jan 20:50:42.255 - Accepted ::1:51533
+[1617] 01 Jan 20:50:42.257 - Client closed connection
+[1617] 01 Jan 20:50:42.257 - Accepted ::1:51534
+[1617] 01 Jan 20:50:42.259 - Client closed connection
+[1617] 01 Jan 20:50:42.259 - Accepted ::1:51535
+[1617] 01 Jan 20:50:42.261 - Client closed connection
+[1617] 01 Jan 20:50:42.261 - Accepted ::1:51536
+[1617] 01 Jan 20:50:42.263 - Client closed connection
+[1617] 01 Jan 20:50:42.264 - Accepted ::1:51537
+[1617] 01 Jan 20:50:42.266 - Client closed connection
+[1617] 01 Jan 20:50:42.267 - Accepted ::1:51538
+[1617] 01 Jan 20:50:42.268 - Client closed connection
+[1617] 01 Jan 20:50:42.269 - Accepted ::1:51539
+[1617] 01 Jan 20:50:42.271 - Client closed connection
+[1617] 01 Jan 20:50:42.271 - Accepted ::1:51540
+[1617] 01 Jan 20:50:42.273 - Client closed connection
+[1617] 01 Jan 20:50:42.273 - Accepted fe80::1:51541
+[1617] 01 Jan 20:50:42.275 - Client closed connection
+[1617] 01 Jan 20:50:42.276 - Accepted ::1:51542
+[1617] 01 Jan 20:50:42.277 - Client closed connection
+[1617] 01 Jan 20:50:42.278 - Accepted ::1:51543
+[1617] 01 Jan 20:50:42.281 * DB saved on disk
+[1617] 01 Jan 20:50:42.284 - Client closed connection
+[1617] 01 Jan 20:50:42.284 - Accepted ::1:51544
+[1617] 01 Jan 20:50:42.290 - Client closed connection
+[1617] 01 Jan 20:50:42.291 - Accepted ::1:51545
+[1617] 01 Jan 20:50:42.293 - Client closed connection
+[1617] 01 Jan 20:50:42.294 - Accepted ::1:51546
+[1617] 01 Jan 20:50:42.297 - Client closed connection
+[1617] 01 Jan 20:50:42.297 - Accepted ::1:51547
+[1617] 01 Jan 20:50:42.301 * DB saved on disk
+[1617] 01 Jan 20:50:42.306 * DB saved on disk
+[1617] 01 Jan 20:50:42.308 - Client closed connection
+[1617] 01 Jan 20:50:42.309 - Accepted ::1:51548
+[1617] 01 Jan 20:50:42.312 - Client closed connection
+[1617] 01 Jan 20:50:42.312 - Accepted ::1:51549
+[1617] 01 Jan 20:50:42.315 - Client closed connection
+[1617] 01 Jan 20:50:42.316 - Accepted ::1:51550
+[1617] 01 Jan 20:50:42.318 - Client closed connection
+[1617] 01 Jan 20:50:42.319 - Accepted ::1:51551
+[1617] 01 Jan 20:50:42.323 - Client closed connection
+[1617] 01 Jan 20:50:42.324 - Accepted ::1:51552
+[1617] 01 Jan 20:50:42.327 * DB saved on disk
+[1617] 01 Jan 20:50:42.329 - Client closed connection
+[1617] 01 Jan 20:50:42.330 - Accepted ::1:51553
+[1617] 01 Jan 20:50:42.332 - Client closed connection
+[1617] 01 Jan 20:50:42.333 - Accepted ::1:51554
+[1617] 01 Jan 20:50:42.335 - Client closed connection
+[1617] 01 Jan 20:50:42.336 - Accepted ::1:51555
+[1617] 01 Jan 20:50:42.338 - Client closed connection
+[1617] 01 Jan 20:50:42.339 - Accepted ::1:51556
+[1617] 01 Jan 20:50:42.341 - Client closed connection
+[1617] 01 Jan 20:50:42.342 - Accepted ::1:51557
+[1617] 01 Jan 20:50:42.344 * DB saved on disk
+[1617] 01 Jan 20:50:42.352 * DB saved on disk
+[1617] 01 Jan 20:50:42.386 - Client closed connection
+[1617] 01 Jan 20:50:42.387 - Accepted ::1:51558
+[1617] 01 Jan 20:50:42.398 * DB saved on disk
+[1617] 01 Jan 20:50:42.401 - Client closed connection
+[1617] 01 Jan 20:50:42.401 - Accepted ::1:51559
+[1617] 01 Jan 20:50:42.404 * DB saved on disk
+[1617] 01 Jan 20:50:42.406 * DB saved on disk
+[1617] 01 Jan 20:50:42.412 - Accepted ::1:51560
+[1617] 01 Jan 20:50:42.415 - Client closed connection
+[1617] 01 Jan 20:50:42.419 * DB saved on disk
+[1617] 01 Jan 20:50:42.421 * DB saved on disk
+[1617] 01 Jan 20:50:42.422 * DB saved on disk
+[1617] 01 Jan 20:50:42.424 * DB saved on disk
+[1617] 01 Jan 20:50:42.425 * DB saved on disk
+[1617] 01 Jan 20:50:42.427 * DB saved on disk
+[1617] 01 Jan 20:50:42.431 - Accepted ::1:51561
+[1617] 01 Jan 20:50:42.439 - Accepted ::1:51562
+[1617] 01 Jan 20:50:42.442 - Client closed connection
+[1617] 01 Jan 20:50:42.452 - Client closed connection
+[1617] 01 Jan 20:50:42.499 * DB saved on disk
+[1617] 01 Jan 20:50:42.502 - Accepted ::1:51563
+[1617] 01 Jan 20:50:42.509 - Accepted ::1:51564
+[1617] 01 Jan 20:50:42.512 - Client closed connection
+[1617] 01 Jan 20:50:42.523 - Client closed connection
+[1617] 01 Jan 20:50:42.575 * DB saved on disk
+[1617] 01 Jan 20:50:42.577 * DB saved on disk
+[1617] 01 Jan 20:50:42.578 - Client closed connection
+[1617] 01 Jan 20:50:42.579 - Accepted ::1:51565
+[1617] 01 Jan 20:50:42.581 * DB saved on disk
+[1617] 01 Jan 20:50:42.586 - Accepted ::1:51566
+[1617] 01 Jan 20:50:42.593 - Accepted ::1:51567
+[1617] 01 Jan 20:50:42.608 - Client closed connection
+[1617] 01 Jan 20:50:42.673 - Client closed connection
+[1617] 01 Jan 20:50:42.720 * DB saved on disk
+[1617] 01 Jan 20:50:42.725 - Accepted ::1:51568
+[1617] 01 Jan 20:50:42.729 - Client closed connection
+[1617] 01 Jan 20:50:42.730 - Accepted ::1:51569
+[1617] 01 Jan 20:50:42.731 - Client closed connection
+[1617] 01 Jan 20:50:42.732 - Accepted ::1:51570
+[1617] 01 Jan 20:50:42.736 - Client closed connection
+[1617] 01 Jan 20:50:42.744 * DB saved on disk
+[1617] 01 Jan 20:50:42.745 - Client closed connection
+[1617] 01 Jan 20:50:42.746 - Accepted ::1:51571
+[1617] 01 Jan 20:50:42.748 - Client closed connection
+[1617] 01 Jan 20:50:42.748 - Accepted ::1:51572
+[1617] 01 Jan 20:50:42.752 * DB saved on disk
+[1617] 01 Jan 20:50:42.754 - Client closed connection
+[1617] 01 Jan 20:50:42.755 - Accepted ::1:51573
+[1617] 01 Jan 20:50:42.757 * DB saved on disk
+[1617] 01 Jan 20:50:42.760 * DB saved on disk
+[1617] 01 Jan 20:50:42.762 * DB saved on disk
+[1617] 01 Jan 20:50:42.765 * DB saved on disk
+[1617] 01 Jan 20:50:42.769 - Accepted ::1:51574
+[1617] 01 Jan 20:50:42.800 - Client closed connection
+[1617] 01 Jan 20:50:43.516 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1617] 01 Jan 20:50:43.516 - 2 clients connected (0 slaves), 987280 bytes in use
+[1617] 01 Jan 20:50:46.043 * DB saved on disk
+[1617] 01 Jan 20:50:46.048 * DB saved on disk
+[1617] 01 Jan 20:50:46.051 - Client closed connection
+[1617] 01 Jan 20:50:46.051 - Accepted ::1:51575
+[1617] 01 Jan 20:50:46.054 * DB saved on disk
+[1617] 01 Jan 20:50:46.057 - Client closed connection
+[1617] 01 Jan 20:50:46.057 - Accepted ::1:51576
+[1617] 01 Jan 20:50:46.059 * DB saved on disk
+[1617] 01 Jan 20:50:46.066 * DB saved on disk
+[1617] 01 Jan 20:50:46.071 * DB saved on disk
+[1617] 01 Jan 20:50:46.072 - Client closed connection
+[1617] 01 Jan 20:50:46.073 - Accepted ::1:51577
+[1617] 01 Jan 20:50:46.076 * DB saved on disk
+[1617] 01 Jan 20:50:46.077 - Client closed connection
+[1617] 01 Jan 20:50:46.078 - Accepted ::1:51578
+[1617] 01 Jan 20:50:46.080 * DB saved on disk
+[1617] 01 Jan 20:50:46.081 - Client closed connection
+[1617] 01 Jan 20:50:46.081 - Accepted ::1:51579
+[1617] 01 Jan 20:50:46.084 * DB saved on disk
+[1617] 01 Jan 20:50:46.086 - Client closed connection
+[1617] 01 Jan 20:50:46.086 - Accepted ::1:51580
+[1617] 01 Jan 20:50:46.088 * DB saved on disk
+[1617] 01 Jan 20:50:46.090 - Client closed connection
+[1617] 01 Jan 20:50:46.090 - Accepted ::1:51581
+[1617] 01 Jan 20:50:46.093 * DB saved on disk
+[1617] 01 Jan 20:50:46.097 - Accepted ::1:51582
+[1617] 01 Jan 20:50:46.102 - Accepted ::1:51583
+[1617] 01 Jan 20:50:46.104 - Client closed connection
+[1617] 01 Jan 20:50:46.105 - Accepted ::1:51584
+[1617] 01 Jan 20:50:46.109 - Client closed connection
+[1617] 01 Jan 20:50:46.112 - Client closed connection
+[1617] 01 Jan 20:50:48.054 * DB saved on disk
+[1617] 01 Jan 20:50:48.060 - Accepted ::1:51586
+[1617] 01 Jan 20:50:48.089 - Client closed connection
+[1617] 01 Jan 20:50:48.553 - DB 0: 3 keys (0 volatile) in 4 slots HT.
+[1617] 01 Jan 20:50:48.553 - 2 clients connected (0 slaves), 987360 bytes in use
+[1617] 01 Jan 20:50:52.084 * DB saved on disk
+[1617] 01 Jan 20:50:52.087 * DB saved on disk
+[1617] 01 Jan 20:50:52.089 - Client closed connection
+[1617] 01 Jan 20:50:52.089 - Accepted ::1:51587
+[1617] 01 Jan 20:50:52.091 - Client closed connection
+[1617] 01 Jan 20:50:52.092 - Accepted ::1:51588
+[1617] 01 Jan 20:50:52.094 - Client closed connection
+[1617] 01 Jan 20:50:52.094 - Accepted ::1:51589
+[1617] 01 Jan 20:50:52.096 - Client closed connection
+[1617] 01 Jan 20:50:52.097 - Accepted ::1:51590
+[1617] 01 Jan 20:50:52.099 * DB saved on disk
+[1617] 01 Jan 20:50:52.100 - Client closed connection
+[1617] 01 Jan 20:50:52.101 - Accepted ::1:51591
+[1617] 01 Jan 20:50:52.102 * DB saved on disk
+[1617] 01 Jan 20:50:52.104 - Client closed connection
+[1617] 01 Jan 20:50:52.105 - Accepted ::1:51592
+[1617] 01 Jan 20:50:52.107 * DB saved on disk
+[1617] 01 Jan 20:50:52.110 * DB saved on disk
+[1617] 01 Jan 20:50:52.113 * DB saved on disk
+[1617] 01 Jan 20:50:52.115 - Client closed connection
+[1617] 01 Jan 20:50:52.116 - Accepted ::1:51593
+[1617] 01 Jan 20:50:52.118 * DB saved on disk
+[1617] 01 Jan 20:50:52.119 - Client closed connection
+[1617] 01 Jan 20:50:52.120 - Accepted ::1:51594
+[1617] 01 Jan 20:50:52.122 * DB saved on disk
+[1617] 01 Jan 20:50:52.124 * DB saved on disk
+[1617] 01 Jan 20:50:52.125 * DB saved on disk
+[1617] 01 Jan 20:50:52.127 - Client closed connection
+[1617] 01 Jan 20:50:52.127 - Accepted ::1:51595
+[1617] 01 Jan 20:50:52.129 * DB saved on disk
+[1617] 01 Jan 20:50:52.130 * DB saved on disk
+[1617] 01 Jan 20:50:52.131 * DB saved on disk
+[1617] 01 Jan 20:50:52.131 * DB saved on disk
+[1617] 01 Jan 20:50:52.132 * DB saved on disk
+[1617] 01 Jan 20:50:52.135 - Accepted ::1:51596
+[1617] 01 Jan 20:50:52.151 - Accepted ::1:51597
+[1617] 01 Jan 20:50:52.200 - Client closed connection
+[1617] 01 Jan 20:50:52.274 - Client closed connection
+[1617] 01 Jan 20:50:52.291 * DB saved on disk
+[1617] 01 Jan 20:50:52.293 - Client closed connection
+[1617] 01 Jan 20:50:52.294 - Accepted ::1:51599
+[1617] 01 Jan 20:50:52.298 * DB saved on disk
+[1617] 01 Jan 20:50:52.300 * DB saved on disk
+[1617] 01 Jan 20:50:52.306 * DB saved on disk
+[1617] 01 Jan 20:50:52.307 * DB saved on disk
+[1617] 01 Jan 20:50:52.308 * DB saved on disk
+[1617] 01 Jan 20:50:52.310 * DB saved on disk
+[1617] 01 Jan 20:50:52.314 * DB saved on disk
+[1617] 01 Jan 20:50:52.320 - Accepted ::1:51600
+[1617] 01 Jan 20:50:52.324 - Client closed connection
+[1617] 01 Jan 20:50:52.331 - Accepted ::1:51601
+[1617] 01 Jan 20:50:52.334 - Client closed connection
+[1617] 01 Jan 20:50:52.337 * DB saved on disk
+[1617] 01 Jan 20:50:52.338 * DB saved on disk
+[1617] 01 Jan 20:50:52.360 * DB saved on disk
+[1617] 01 Jan 20:50:52.362 - Client closed connection
+[1617] 01 Jan 20:50:52.363 - Accepted ::1:51602
+[1617] 01 Jan 20:50:52.365 - Client closed connection
+[1617] 01 Jan 20:50:52.366 - Accepted ::1:51603
+[1617] 01 Jan 20:50:52.503 - Client closed connection
+[1617] 01 Jan 20:50:53.588 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:50:53.589 - 1 clients connected (0 slaves), 971024 bytes in use
+[1617] 01 Jan 20:50:54.097 * DB saved on disk
+[1617] 01 Jan 20:50:54.100 * DB saved on disk
+[1617] 01 Jan 20:50:54.102 - Client closed connection
+[1617] 01 Jan 20:50:54.103 - Accepted ::1:51605
+[1617] 01 Jan 20:50:54.105 * DB saved on disk
+[1617] 01 Jan 20:50:54.107 - Client closed connection
+[1617] 01 Jan 20:50:54.108 - Accepted ::1:51606
+[1617] 01 Jan 20:50:54.109 * DB saved on disk
+[1617] 01 Jan 20:50:54.115 * DB saved on disk
+[1617] 01 Jan 20:50:54.121 * DB saved on disk
+[1617] 01 Jan 20:50:54.123 - Client closed connection
+[1617] 01 Jan 20:50:54.123 - Accepted ::1:51607
+[1617] 01 Jan 20:50:54.125 * DB saved on disk
+[1617] 01 Jan 20:50:54.127 - Client closed connection
+[1617] 01 Jan 20:50:54.127 - Accepted ::1:51608
+[1617] 01 Jan 20:50:54.129 * DB saved on disk
+[1617] 01 Jan 20:50:54.131 - Client closed connection
+[1617] 01 Jan 20:50:54.131 - Accepted ::1:51609
+[1617] 01 Jan 20:50:54.136 * DB saved on disk
+[1617] 01 Jan 20:50:54.139 - Client closed connection
+[1617] 01 Jan 20:50:54.139 - Accepted ::1:51610
+[1617] 01 Jan 20:50:54.142 * DB saved on disk
+[1617] 01 Jan 20:50:54.143 - Client closed connection
+[1617] 01 Jan 20:50:54.143 - Accepted ::1:51611
+[1617] 01 Jan 20:50:54.145 * DB saved on disk
+[1617] 01 Jan 20:50:54.149 - Accepted ::1:51612
+[1617] 01 Jan 20:50:54.156 - Accepted ::1:51613
+[1617] 01 Jan 20:50:54.158 - Client closed connection
+[1617] 01 Jan 20:50:54.159 - Accepted ::1:51614
+[1617] 01 Jan 20:50:54.163 - Client closed connection
+[1617] 01 Jan 20:50:54.167 - Client closed connection
+[1617] 01 Jan 20:50:58.617 - DB 0: 4 keys (0 volatile) in 8 slots HT.
+[1617] 01 Jan 20:50:58.618 - 1 clients connected (0 slaves), 970192 bytes in use
+[1617] 01 Jan 20:51:00.039 * DB saved on disk
+[1617] 01 Jan 20:51:00.043 * DB saved on disk
+[1617] 01 Jan 20:51:00.046 - Client closed connection
+[1617] 01 Jan 20:51:00.047 - Accepted ::1:51616
+[1617] 01 Jan 20:51:00.049 - Client closed connection
+[1617] 01 Jan 20:51:00.050 - Accepted ::1:51617
+[1617] 01 Jan 20:51:00.052 - Client closed connection
+[1617] 01 Jan 20:51:00.053 - Accepted ::1:51618
+[1617] 01 Jan 20:51:00.055 - Client closed connection
+[1617] 01 Jan 20:51:00.056 - Accepted ::1:51619
+[1617] 01 Jan 20:51:00.058 * DB saved on disk
+[1617] 01 Jan 20:51:00.060 - Client closed connection
+[1617] 01 Jan 20:51:00.060 - Accepted ::1:51620
+[1617] 01 Jan 20:51:00.062 * DB saved on disk
+[1617] 01 Jan 20:51:00.063 - Client closed connection
+[1617] 01 Jan 20:51:00.064 - Accepted ::1:51621
+[1617] 01 Jan 20:51:00.065 * DB saved on disk
+[1617] 01 Jan 20:51:00.067 * DB saved on disk
+[1617] 01 Jan 20:51:00.069 * DB saved on disk
+[1617] 01 Jan 20:51:00.071 - Client closed connection
+[1617] 01 Jan 20:51:00.071 - Accepted ::1:51622
+[1617] 01 Jan 20:51:00.074 * DB saved on disk
+[1617] 01 Jan 20:51:00.075 - Client closed connection
+[1617] 01 Jan 20:51:00.076 - Accepted ::1:51623
+[1617] 01 Jan 20:51:00.078 * DB saved on disk
+[1617] 01 Jan 20:51:00.081 * DB saved on disk
+[1617] 01 Jan 20:51:00.082 * DB saved on disk
+[1617] 01 Jan 20:51:00.083 - Client closed connection
+[1617] 01 Jan 20:51:00.084 - Accepted ::1:51624
+[1617] 01 Jan 20:51:00.085 * DB saved on disk
+[1617] 01 Jan 20:51:00.086 * DB saved on disk
+[1617] 01 Jan 20:51:00.087 * DB saved on disk
+[1617] 01 Jan 20:51:00.088 * DB saved on disk
+[1617] 01 Jan 20:51:00.089 * DB saved on disk
+[1617] 01 Jan 20:51:00.092 - Accepted ::1:51625
+[1617] 01 Jan 20:51:00.098 - Accepted ::1:51626
+[1617] 01 Jan 20:51:00.130 - Client closed connection
+[1617] 01 Jan 20:51:00.198 - Client closed connection
+[1617] 01 Jan 20:51:00.226 * DB saved on disk
+[1617] 01 Jan 20:51:00.228 - Client closed connection
+[1617] 01 Jan 20:51:00.229 - Accepted ::1:51627
+[1617] 01 Jan 20:51:00.231 * DB saved on disk
+[1617] 01 Jan 20:51:00.232 * DB saved on disk
+[1617] 01 Jan 20:51:00.241 * DB saved on disk
+[1617] 01 Jan 20:51:00.242 * DB saved on disk
+[1617] 01 Jan 20:51:00.243 * DB saved on disk
+[1617] 01 Jan 20:51:00.244 * DB saved on disk
+[1617] 01 Jan 20:51:00.250 * DB saved on disk
+[1617] 01 Jan 20:51:00.256 - Accepted ::1:51628
+[1617] 01 Jan 20:51:00.260 - Client closed connection
+[1617] 01 Jan 20:51:00.265 - Accepted ::1:51629
+[1617] 01 Jan 20:51:00.268 - Client closed connection
+[1617] 01 Jan 20:51:00.271 * DB saved on disk
+[1617] 01 Jan 20:51:00.273 * DB saved on disk
+[1617] 01 Jan 20:51:00.298 * DB saved on disk
+[1617] 01 Jan 20:51:00.301 - Client closed connection
+[1617] 01 Jan 20:51:00.301 - Accepted ::1:51630
+[1617] 01 Jan 20:51:00.304 - Client closed connection
+[1617] 01 Jan 20:51:00.305 - Accepted ::1:51631
+[1617] 01 Jan 20:51:00.437 - Client closed connection
+[1617] 01 Jan 20:51:03.653 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:51:03.653 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:51:08.691 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:51:08.691 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:51:13.718 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:51:13.718 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:51:18.746 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:51:18.746 - 0 clients connected (0 slaves), 953472 bytes in use
+[2631] 01 Jan 20:51:22.516 * Increased maximum number of open files to 10032 (it was originally set to 2560).
+[2631] 01 Jan 20:51:22.517 # Creating Server TCP listening socket *:9736: bind: Address already in use
+[1617] 01 Jan 20:51:22.670 - Accepted ::1:51639
+[1617] 01 Jan 20:51:22.671 * DB saved on disk
+[1617] 01 Jan 20:51:22.673 * DB saved on disk
+[1617] 01 Jan 20:51:22.678 * DB saved on disk
+[1617] 01 Jan 20:51:22.680 * DB saved on disk
+[1617] 01 Jan 20:51:22.682 * DB saved on disk
+[1617] 01 Jan 20:51:22.684 * DB saved on disk
+[1617] 01 Jan 20:51:22.687 * DB saved on disk
+[1617] 01 Jan 20:51:22.689 * DB saved on disk
+[1617] 01 Jan 20:51:22.691 * DB saved on disk
+[1617] 01 Jan 20:51:22.692 * DB saved on disk
+[1617] 01 Jan 20:51:22.700 * DB saved on disk
+[1617] 01 Jan 20:51:22.704 * DB saved on disk
+[1617] 01 Jan 20:51:22.707 * DB saved on disk
+[1617] 01 Jan 20:51:22.714 * DB saved on disk
+[1617] 01 Jan 20:51:22.717 * DB saved on disk
+[1617] 01 Jan 20:51:22.720 * DB saved on disk
+[1617] 01 Jan 20:51:22.722 * DB saved on disk
+[1617] 01 Jan 20:51:22.725 * DB saved on disk
+[1617] 01 Jan 20:51:22.729 * DB saved on disk
+[1617] 01 Jan 20:51:22.732 * DB saved on disk
+[1617] 01 Jan 20:51:22.747 * DB saved on disk
+[1617] 01 Jan 20:51:22.749 * DB saved on disk
+[1617] 01 Jan 20:51:22.751 * DB saved on disk
+[1617] 01 Jan 20:51:22.752 * DB saved on disk
+[1617] 01 Jan 20:51:22.753 * DB saved on disk
+[1617] 01 Jan 20:51:22.756 * DB saved on disk
+[1617] 01 Jan 20:51:22.757 * DB saved on disk
+[1617] 01 Jan 20:51:22.759 * DB saved on disk
+[1617] 01 Jan 20:51:22.761 * DB saved on disk
+[1617] 01 Jan 20:51:22.764 - Client closed connection
+[1617] 01 Jan 20:51:22.765 - Accepted ::1:51640
+[1617] 01 Jan 20:51:22.770 * DB saved on disk
+[1617] 01 Jan 20:51:22.772 - Client closed connection
+[1617] 01 Jan 20:51:22.772 - Accepted ::1:51641
+[1617] 01 Jan 20:51:22.775 * DB saved on disk
+[1617] 01 Jan 20:51:22.778 - Client closed connection
+[1617] 01 Jan 20:51:22.779 - Accepted ::1:51642
+[1617] 01 Jan 20:51:22.781 * DB saved on disk
+[1617] 01 Jan 20:51:22.783 - Client closed connection
+[1617] 01 Jan 20:51:22.784 - Accepted ::1:51643
+[1617] 01 Jan 20:51:22.787 * DB saved on disk
+[1617] 01 Jan 20:51:22.789 - Client closed connection
+[1617] 01 Jan 20:51:22.789 - Accepted ::1:51644
+[1617] 01 Jan 20:51:22.791 - Client closed connection
+[1617] 01 Jan 20:51:22.791 - Accepted ::1:51645
+[1617] 01 Jan 20:51:22.793 * DB saved on disk
+[1617] 01 Jan 20:51:22.794 * DB saved on disk
+[1617] 01 Jan 20:51:22.801 - Accepted ::1:51646
+[1617] 01 Jan 20:51:22.808 - Client closed connection
+[1617] 01 Jan 20:51:22.814 * DB saved on disk
+[1617] 01 Jan 20:51:22.817 - Client closed connection
+[1617] 01 Jan 20:51:22.818 - Accepted ::1:51647
+[1617] 01 Jan 20:51:22.821 - Client closed connection
+[1617] 01 Jan 20:51:22.821 - Accepted ::1:51648
+[1617] 01 Jan 20:51:22.824 * DB saved on disk
+[1617] 01 Jan 20:51:22.826 - Client closed connection
+[1617] 01 Jan 20:51:22.827 - Accepted ::1:51649
+[1617] 01 Jan 20:51:22.831 * DB saved on disk
+[1617] 01 Jan 20:51:22.833 - Client closed connection
+[1617] 01 Jan 20:51:22.833 - Accepted ::1:51650
+[1617] 01 Jan 20:51:22.835 * DB saved on disk
+[1617] 01 Jan 20:51:22.841 - Accepted ::1:51651
+[1617] 01 Jan 20:51:22.845 - Client closed connection
+[1617] 01 Jan 20:51:22.853 - Accepted ::1:51652
+[1617] 01 Jan 20:51:22.857 - Client closed connection
+[1617] 01 Jan 20:51:22.867 - Client closed connection
+[1617] 01 Jan 20:51:22.868 - Accepted ::1:51653
+[1617] 01 Jan 20:51:22.890 - Client closed connection
+[1617] 01 Jan 20:51:22.891 - Accepted ::1:51656
+[1617] 01 Jan 20:51:22.927 * DB saved on disk
+[1617] 01 Jan 20:51:22.930 - Client closed connection
+[1617] 01 Jan 20:51:22.931 - Accepted ::1:51657
+[1617] 01 Jan 20:51:22.935 * DB saved on disk
+[1617] 01 Jan 20:51:22.939 - Accepted ::1:51658
+[1617] 01 Jan 20:51:22.946 - Accepted ::1:51659
+[1617] 01 Jan 20:51:22.949 - Client closed connection
+[1617] 01 Jan 20:51:22.950 - Accepted ::1:51660
+[1617] 01 Jan 20:51:22.954 - Client closed connection
+[1617] 01 Jan 20:51:23.055 - Client closed connection
+[1617] 01 Jan 20:51:23.064 * DB saved on disk
+[1617] 01 Jan 20:51:23.069 - Accepted ::1:51661
+[1617] 01 Jan 20:51:23.074 - Accepted ::1:51662
+[1617] 01 Jan 20:51:23.076 - Client closed connection
+[1617] 01 Jan 20:51:23.077 - Accepted ::1:51663
+[1617] 01 Jan 20:51:23.082 - Client closed connection
+[1617] 01 Jan 20:51:23.183 - Client closed connection
+[1617] 01 Jan 20:51:23.189 * DB saved on disk
+[1617] 01 Jan 20:51:23.195 - Accepted ::1:51664
+[1617] 01 Jan 20:51:23.202 - Accepted ::1:51665
+[1617] 01 Jan 20:51:23.204 - Client closed connection
+[1617] 01 Jan 20:51:23.205 - Accepted ::1:51666
+[1617] 01 Jan 20:51:23.778 - DB 0: 6 keys (0 volatile) in 8 slots HT.
+[1617] 01 Jan 20:51:23.779 - 3 clients connected (0 slaves), 1004992 bytes in use
+[1617] 01 Jan 20:51:24.213 - Client closed connection
+[1617] 01 Jan 20:51:24.216 - Client closed connection
+[1617] 01 Jan 20:51:24.222 * DB saved on disk
+[1617] 01 Jan 20:51:24.227 - Accepted ::1:51668
+[1617] 01 Jan 20:51:24.237 - Accepted ::1:51669
+[1617] 01 Jan 20:51:24.240 - Client closed connection
+[1617] 01 Jan 20:51:24.242 - Accepted ::1:51670
+[1617] 01 Jan 20:51:25.251 - Client closed connection
+[1617] 01 Jan 20:51:25.255 - Client closed connection
+[1617] 01 Jan 20:51:25.261 * DB saved on disk
+[1617] 01 Jan 20:51:25.262 * DB saved on disk
+[1617] 01 Jan 20:51:25.264 - Client closed connection
+[1617] 01 Jan 20:51:25.265 - Accepted ::1:51671
+[1617] 01 Jan 20:51:25.267 * DB saved on disk
+[1617] 01 Jan 20:51:25.268 * DB saved on disk
+[1617] 01 Jan 20:51:25.270 - Client closed connection
+[1617] 01 Jan 20:51:25.270 - Accepted ::1:51672
+[1617] 01 Jan 20:51:25.272 * DB saved on disk
+[1617] 01 Jan 20:51:25.273 * DB saved on disk
+[1617] 01 Jan 20:51:25.274 - Client closed connection
+[1617] 01 Jan 20:51:25.275 - Accepted ::1:51673
+[1617] 01 Jan 20:51:25.277 * DB saved on disk
+[1617] 01 Jan 20:51:25.278 * DB saved on disk
+[1617] 01 Jan 20:51:25.279 - Client closed connection
+[1617] 01 Jan 20:51:25.279 - Accepted ::1:51674
+[1617] 01 Jan 20:51:25.281 * DB saved on disk
+[1617] 01 Jan 20:51:25.282 * DB saved on disk
+[1617] 01 Jan 20:51:25.283 - Client closed connection
+[1617] 01 Jan 20:51:25.284 - Accepted ::1:51675
+[1617] 01 Jan 20:51:25.286 * DB saved on disk
+[1617] 01 Jan 20:51:25.287 - Client closed connection
+[1617] 01 Jan 20:51:25.288 - Accepted ::1:51676
+[1617] 01 Jan 20:51:25.290 * DB saved on disk
+[1617] 01 Jan 20:51:25.291 - Client closed connection
+[1617] 01 Jan 20:51:25.292 - Accepted ::1:51677
+[1617] 01 Jan 20:51:25.293 - Client closed connection
+[1617] 01 Jan 20:51:25.294 - Accepted ::1:51678
+[1617] 01 Jan 20:51:25.296 * DB saved on disk
+[1617] 01 Jan 20:51:25.298 - Client closed connection
+[1617] 01 Jan 20:51:25.298 - Accepted ::1:51679
+[1617] 01 Jan 20:51:25.302 - Client closed connection
+[1617] 01 Jan 20:51:25.303 - Accepted ::1:51680
+[1617] 01 Jan 20:51:25.305 * DB saved on disk
+[1617] 01 Jan 20:51:25.328 - Client closed connection
+[1617] 01 Jan 20:51:25.329 - Accepted ::1:51681
+[1617] 01 Jan 20:51:25.332 * DB saved on disk
+[1617] 01 Jan 20:51:25.335 - Client closed connection
+[1617] 01 Jan 20:51:25.335 - Accepted ::1:51682
+[1617] 01 Jan 20:51:25.337 - Client closed connection
+[1617] 01 Jan 20:51:25.337 - Accepted ::1:51683
+[1617] 01 Jan 20:51:25.339 - Client closed connection
+[1617] 01 Jan 20:51:25.340 - Accepted ::1:51684
+[1617] 01 Jan 20:51:25.341 - Client closed connection
+[1617] 01 Jan 20:51:25.342 - Accepted ::1:51685
+[1617] 01 Jan 20:51:25.344 - Client closed connection
+[1617] 01 Jan 20:51:25.344 - Accepted ::1:51686
+[1617] 01 Jan 20:51:25.346 - Client closed connection
+[1617] 01 Jan 20:51:25.346 - Accepted ::1:51687
+[1617] 01 Jan 20:51:25.348 - Client closed connection
+[1617] 01 Jan 20:51:25.349 - Accepted ::1:51688
+[1617] 01 Jan 20:51:25.351 - Client closed connection
+[1617] 01 Jan 20:51:25.351 - Accepted ::1:51689
+[1617] 01 Jan 20:51:25.353 - Client closed connection
+[1617] 01 Jan 20:51:25.354 - Accepted ::1:51690
+[1617] 01 Jan 20:51:25.358 - Client closed connection
+[1617] 01 Jan 20:51:25.359 - Accepted ::1:51691
+[1617] 01 Jan 20:51:25.362 - Client closed connection
+[1617] 01 Jan 20:51:25.362 - Accepted ::1:51692
+[1617] 01 Jan 20:51:25.366 * DB saved on disk
+[1617] 01 Jan 20:51:25.369 - Client closed connection
+[1617] 01 Jan 20:51:25.370 - Accepted ::1:51693
+[1617] 01 Jan 20:51:25.372 - Client closed connection
+[1617] 01 Jan 20:51:25.373 - Accepted ::1:51694
+[1617] 01 Jan 20:51:25.376 - Client closed connection
+[1617] 01 Jan 20:51:25.376 - Accepted ::1:51695
+[1617] 01 Jan 20:51:25.379 - Client closed connection
+[1617] 01 Jan 20:51:25.379 - Accepted ::1:51696
+[1617] 01 Jan 20:51:25.382 * DB saved on disk
+[1617] 01 Jan 20:51:25.390 * DB saved on disk
+[1617] 01 Jan 20:51:25.395 - Client closed connection
+[1617] 01 Jan 20:51:25.395 - Accepted ::1:51697
+[1617] 01 Jan 20:51:25.398 - Client closed connection
+[1617] 01 Jan 20:51:25.399 - Accepted ::1:51698
+[1617] 01 Jan 20:51:25.401 - Client closed connection
+[1617] 01 Jan 20:51:25.402 - Accepted ::1:51699
+[1617] 01 Jan 20:51:25.405 - Client closed connection
+[1617] 01 Jan 20:51:25.406 - Accepted ::1:51700
+[1617] 01 Jan 20:51:25.409 - Client closed connection
+[1617] 01 Jan 20:51:25.410 - Accepted ::1:51701
+[1617] 01 Jan 20:51:25.413 * DB saved on disk
+[1617] 01 Jan 20:51:25.415 - Client closed connection
+[1617] 01 Jan 20:51:25.415 - Accepted ::1:51702
+[1617] 01 Jan 20:51:25.418 - Client closed connection
+[1617] 01 Jan 20:51:25.418 - Accepted ::1:51703
+[1617] 01 Jan 20:51:25.422 - Client closed connection
+[1617] 01 Jan 20:51:25.422 - Accepted ::1:51704
+[1617] 01 Jan 20:51:25.425 - Client closed connection
+[1617] 01 Jan 20:51:25.426 - Accepted ::1:51705
+[1617] 01 Jan 20:51:25.428 - Client closed connection
+[1617] 01 Jan 20:51:25.429 - Accepted ::1:51706
+[1617] 01 Jan 20:51:25.432 * DB saved on disk
+[1617] 01 Jan 20:51:25.437 * DB saved on disk
+[1617] 01 Jan 20:51:25.472 - Client closed connection
+[1617] 01 Jan 20:51:25.472 - Accepted ::1:51707
+[1617] 01 Jan 20:51:25.484 * DB saved on disk
+[1617] 01 Jan 20:51:25.486 - Client closed connection
+[1617] 01 Jan 20:51:25.487 - Accepted ::1:51708
+[1617] 01 Jan 20:51:25.491 * DB saved on disk
+[1617] 01 Jan 20:51:25.492 * DB saved on disk
+[1617] 01 Jan 20:51:25.498 - Accepted ::1:51709
+[1617] 01 Jan 20:51:25.501 - Client closed connection
+[1617] 01 Jan 20:51:25.504 * DB saved on disk
+[1617] 01 Jan 20:51:25.508 * DB saved on disk
+[1617] 01 Jan 20:51:25.510 * DB saved on disk
+[1617] 01 Jan 20:51:25.513 * DB saved on disk
+[1617] 01 Jan 20:51:25.515 * DB saved on disk
+[1617] 01 Jan 20:51:25.518 * DB saved on disk
+[1617] 01 Jan 20:51:25.524 - Accepted ::1:51711
+[1617] 01 Jan 20:51:25.530 - Accepted ::1:51712
+[1617] 01 Jan 20:51:25.533 - Client closed connection
+[1617] 01 Jan 20:51:25.579 - Client closed connection
+[1617] 01 Jan 20:51:25.594 * DB saved on disk
+[1617] 01 Jan 20:51:25.598 - Accepted ::1:51713
+[1617] 01 Jan 20:51:25.607 - Accepted ::1:51714
+[1617] 01 Jan 20:51:25.609 - Client closed connection
+[1617] 01 Jan 20:51:25.654 - Client closed connection
+[1617] 01 Jan 20:51:25.672 * DB saved on disk
+[1617] 01 Jan 20:51:25.674 * DB saved on disk
+[1617] 01 Jan 20:51:25.676 - Client closed connection
+[1617] 01 Jan 20:51:25.676 - Accepted ::1:51715
+[1617] 01 Jan 20:51:25.678 * DB saved on disk
+[1617] 01 Jan 20:51:25.681 - Accepted ::1:51716
+[1617] 01 Jan 20:51:25.687 - Accepted ::1:51717
+[1617] 01 Jan 20:51:25.721 - Client closed connection
+[1617] 01 Jan 20:51:25.786 - Client closed connection
+[1617] 01 Jan 20:51:25.826 * DB saved on disk
+[1617] 01 Jan 20:51:25.831 - Accepted ::1:51718
+[1617] 01 Jan 20:51:25.835 - Client closed connection
+[1617] 01 Jan 20:51:25.837 - Accepted ::1:51719
+[1617] 01 Jan 20:51:25.839 - Client closed connection
+[1617] 01 Jan 20:51:25.840 - Accepted ::1:51720
+[1617] 01 Jan 20:51:25.843 - Client closed connection
+[1617] 01 Jan 20:51:25.848 * DB saved on disk
+[1617] 01 Jan 20:51:25.850 - Client closed connection
+[1617] 01 Jan 20:51:25.851 - Accepted ::1:51721
+[1617] 01 Jan 20:51:25.852 - Client closed connection
+[1617] 01 Jan 20:51:25.853 - Accepted ::1:51722
+[1617] 01 Jan 20:51:25.855 * DB saved on disk
+[1617] 01 Jan 20:51:25.857 - Client closed connection
+[1617] 01 Jan 20:51:25.858 - Accepted ::1:51723
+[1617] 01 Jan 20:51:25.860 * DB saved on disk
+[1617] 01 Jan 20:51:25.862 * DB saved on disk
+[1617] 01 Jan 20:51:25.864 * DB saved on disk
+[1617] 01 Jan 20:51:25.866 * DB saved on disk
+[1617] 01 Jan 20:51:25.872 - Accepted ::1:51724
+[1617] 01 Jan 20:51:25.879 - Accepted ::1:51725
+[1617] 01 Jan 20:51:25.880 - Client closed connection
+[1617] 01 Jan 20:51:25.881 - Accepted ::1:51726
+[1617] 01 Jan 20:51:26.384 - Client closed connection
+[1617] 01 Jan 20:51:26.387 - Client closed connection
+[1617] 01 Jan 20:51:26.391 * DB saved on disk
+[1617] 01 Jan 20:51:26.396 - Accepted ::1:51727
+[1617] 01 Jan 20:51:26.401 - Accepted ::1:51728
+[1617] 01 Jan 20:51:26.403 - Client closed connection
+[1617] 01 Jan 20:51:26.403 - Accepted ::1:51729
+[1617] 01 Jan 20:51:27.413 - Client closed connection
+[1617] 01 Jan 20:51:27.513 - Client closed connection
+[1617] 01 Jan 20:51:27.520 * DB saved on disk
+[1617] 01 Jan 20:51:27.525 * DB saved on disk
+[1617] 01 Jan 20:51:27.527 - Client closed connection
+[1617] 01 Jan 20:51:27.528 - Accepted ::1:51731
+[1617] 01 Jan 20:51:27.531 * DB saved on disk
+[1617] 01 Jan 20:51:27.535 - Client closed connection
+[1617] 01 Jan 20:51:27.536 - Accepted ::1:51732
+[1617] 01 Jan 20:51:27.539 * DB saved on disk
+[1617] 01 Jan 20:51:27.547 * DB saved on disk
+[1617] 01 Jan 20:51:27.554 * DB saved on disk
+[1617] 01 Jan 20:51:27.556 - Client closed connection
+[1617] 01 Jan 20:51:27.556 - Accepted ::1:51733
+[1617] 01 Jan 20:51:27.559 * DB saved on disk
+[1617] 01 Jan 20:51:27.561 - Client closed connection
+[1617] 01 Jan 20:51:27.561 - Accepted ::1:51734
+[1617] 01 Jan 20:51:27.564 * DB saved on disk
+[1617] 01 Jan 20:51:27.566 - Client closed connection
+[1617] 01 Jan 20:51:27.567 - Accepted ::1:51735
+[1617] 01 Jan 20:51:27.570 * DB saved on disk
+[1617] 01 Jan 20:51:27.572 - Client closed connection
+[1617] 01 Jan 20:51:27.572 - Accepted ::1:51736
+[1617] 01 Jan 20:51:27.574 * DB saved on disk
+[1617] 01 Jan 20:51:27.577 - Client closed connection
+[1617] 01 Jan 20:51:27.578 - Accepted ::1:51737
+[1617] 01 Jan 20:51:27.580 * DB saved on disk
+[1617] 01 Jan 20:51:27.585 - Accepted ::1:51738
+[1617] 01 Jan 20:51:27.590 - Accepted ::1:51739
+[1617] 01 Jan 20:51:27.592 - Client closed connection
+[1617] 01 Jan 20:51:27.593 - Accepted ::1:51740
+[1617] 01 Jan 20:51:27.596 - Client closed connection
+[1617] 01 Jan 20:51:27.599 - Client closed connection
+[1617] 01 Jan 20:51:28.811 - DB 0: 4 keys (0 volatile) in 8 slots HT.
+[1617] 01 Jan 20:51:28.811 - 1 clients connected (0 slaves), 970192 bytes in use
+[1617] 01 Jan 20:51:33.049 * DB saved on disk
+[1617] 01 Jan 20:51:33.053 * DB saved on disk
+[1617] 01 Jan 20:51:33.055 - Client closed connection
+[1617] 01 Jan 20:51:33.056 - Accepted ::1:51742
+[1617] 01 Jan 20:51:33.058 - Client closed connection
+[1617] 01 Jan 20:51:33.058 - Accepted ::1:51743
+[1617] 01 Jan 20:51:33.060 - Client closed connection
+[1617] 01 Jan 20:51:33.061 - Accepted ::1:51744
+[1617] 01 Jan 20:51:33.062 - Client closed connection
+[1617] 01 Jan 20:51:33.063 - Accepted ::1:51745
+[1617] 01 Jan 20:51:33.065 * DB saved on disk
+[1617] 01 Jan 20:51:33.066 - Client closed connection
+[1617] 01 Jan 20:51:33.067 - Accepted ::1:51746
+[1617] 01 Jan 20:51:33.068 * DB saved on disk
+[1617] 01 Jan 20:51:33.070 - Client closed connection
+[1617] 01 Jan 20:51:33.070 - Accepted ::1:51747
+[1617] 01 Jan 20:51:33.072 * DB saved on disk
+[1617] 01 Jan 20:51:33.073 * DB saved on disk
+[1617] 01 Jan 20:51:33.075 * DB saved on disk
+[1617] 01 Jan 20:51:33.077 - Client closed connection
+[1617] 01 Jan 20:51:33.077 - Accepted ::1:51748
+[1617] 01 Jan 20:51:33.079 * DB saved on disk
+[1617] 01 Jan 20:51:33.081 - Client closed connection
+[1617] 01 Jan 20:51:33.081 - Accepted ::1:51749
+[1617] 01 Jan 20:51:33.084 * DB saved on disk
+[1617] 01 Jan 20:51:33.086 * DB saved on disk
+[1617] 01 Jan 20:51:33.087 * DB saved on disk
+[1617] 01 Jan 20:51:33.088 - Client closed connection
+[1617] 01 Jan 20:51:33.089 - Accepted ::1:51750
+[1617] 01 Jan 20:51:33.090 * DB saved on disk
+[1617] 01 Jan 20:51:33.092 * DB saved on disk
+[1617] 01 Jan 20:51:33.093 * DB saved on disk
+[1617] 01 Jan 20:51:33.096 * DB saved on disk
+[1617] 01 Jan 20:51:33.098 * DB saved on disk
+[1617] 01 Jan 20:51:33.103 - Accepted ::1:51751
+[1617] 01 Jan 20:51:33.109 - Accepted ::1:51752
+[1617] 01 Jan 20:51:33.146 - Client closed connection
+[1617] 01 Jan 20:51:33.243 - Client closed connection
+[1617] 01 Jan 20:51:33.259 * DB saved on disk
+[1617] 01 Jan 20:51:33.261 - Client closed connection
+[1617] 01 Jan 20:51:33.262 - Accepted ::1:51753
+[1617] 01 Jan 20:51:33.266 * DB saved on disk
+[1617] 01 Jan 20:51:33.268 * DB saved on disk
+[1617] 01 Jan 20:51:33.277 * DB saved on disk
+[1617] 01 Jan 20:51:33.278 * DB saved on disk
+[1617] 01 Jan 20:51:33.279 * DB saved on disk
+[1617] 01 Jan 20:51:33.282 * DB saved on disk
+[1617] 01 Jan 20:51:33.287 * DB saved on disk
+[1617] 01 Jan 20:51:33.293 - Accepted ::1:51754
+[1617] 01 Jan 20:51:33.297 - Client closed connection
+[1617] 01 Jan 20:51:33.303 - Accepted ::1:51755
+[1617] 01 Jan 20:51:33.306 - Client closed connection
+[1617] 01 Jan 20:51:33.310 * DB saved on disk
+[1617] 01 Jan 20:51:33.311 * DB saved on disk
+[1617] 01 Jan 20:51:33.335 * DB saved on disk
+[1617] 01 Jan 20:51:33.338 - Client closed connection
+[1617] 01 Jan 20:51:33.338 - Accepted ::1:51756
+[1617] 01 Jan 20:51:33.341 - Client closed connection
+[1617] 01 Jan 20:51:33.342 - Accepted ::1:51757
+[1617] 01 Jan 20:51:33.461 - Client closed connection
+[1617] 01 Jan 20:51:33.846 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:51:33.846 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:51:38.877 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:51:38.877 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:51:43.910 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:51:43.910 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:51:48.942 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:51:48.943 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:51:53.988 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:51:53.988 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:51:59.025 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:51:59.026 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:52:04.062 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:52:04.062 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:52:09.090 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:52:09.090 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:52:14.124 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:52:14.125 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:52:19.170 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:52:19.170 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:52:24.188 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:52:24.189 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:52:29.226 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:52:29.227 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:52:34.265 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:52:34.265 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:52:39.304 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:52:39.304 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:52:44.336 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:52:44.337 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:52:49.369 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:52:49.370 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:52:54.403 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:52:54.404 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:52:59.435 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:52:59.435 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:53:04.468 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:53:04.468 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:53:09.510 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:53:09.510 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:53:14.533 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:53:14.533 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:53:19.566 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:53:19.566 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:53:24.599 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:53:24.599 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:53:29.633 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:53:29.633 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:53:34.671 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:53:34.671 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:53:39.710 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:53:39.710 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:53:44.747 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:53:44.747 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:53:49.781 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:53:49.781 - 0 clients connected (0 slaves), 953472 bytes in use
+[2804] 01 Jan 20:53:53.579 * Increased maximum number of open files to 10032 (it was originally set to 2560).
+[2804] 01 Jan 20:53:53.580 # Creating Server TCP listening socket *:9736: bind: Address already in use
+[1617] 01 Jan 20:53:53.726 - Accepted ::1:51798
+[1617] 01 Jan 20:53:53.728 * DB saved on disk
+[1617] 01 Jan 20:53:53.729 * DB saved on disk
+[1617] 01 Jan 20:53:53.731 * DB saved on disk
+[1617] 01 Jan 20:53:53.733 * DB saved on disk
+[1617] 01 Jan 20:53:53.735 * DB saved on disk
+[1617] 01 Jan 20:53:53.736 * DB saved on disk
+[1617] 01 Jan 20:53:53.738 * DB saved on disk
+[1617] 01 Jan 20:53:53.740 * DB saved on disk
+[1617] 01 Jan 20:53:53.741 * DB saved on disk
+[1617] 01 Jan 20:53:53.743 * DB saved on disk
+[1617] 01 Jan 20:53:53.747 * DB saved on disk
+[1617] 01 Jan 20:53:53.752 * DB saved on disk
+[1617] 01 Jan 20:53:53.755 * DB saved on disk
+[1617] 01 Jan 20:53:53.761 * DB saved on disk
+[1617] 01 Jan 20:53:53.765 * DB saved on disk
+[1617] 01 Jan 20:53:53.767 * DB saved on disk
+[1617] 01 Jan 20:53:53.770 * DB saved on disk
+[1617] 01 Jan 20:53:53.775 * DB saved on disk
+[1617] 01 Jan 20:53:53.779 * DB saved on disk
+[1617] 01 Jan 20:53:53.782 * DB saved on disk
+[1617] 01 Jan 20:53:53.793 * DB saved on disk
+[1617] 01 Jan 20:53:53.795 * DB saved on disk
+[1617] 01 Jan 20:53:53.798 * DB saved on disk
+[1617] 01 Jan 20:53:53.800 * DB saved on disk
+[1617] 01 Jan 20:53:53.802 * DB saved on disk
+[1617] 01 Jan 20:53:53.804 * DB saved on disk
+[1617] 01 Jan 20:53:53.804 * DB saved on disk
+[1617] 01 Jan 20:53:53.808 * DB saved on disk
+[1617] 01 Jan 20:53:53.812 * DB saved on disk
+[1617] 01 Jan 20:53:53.821 - Accepted ::1:51799
+[1617] 01 Jan 20:53:53.825 - Client closed connection
+[1617] 01 Jan 20:53:53.833 - Accepted ::1:51800
+[1617] 01 Jan 20:53:53.837 - Client closed connection
+[1617] 01 Jan 20:53:53.839 * DB saved on disk
+[1617] 01 Jan 20:53:53.841 - Client closed connection
+[1617] 01 Jan 20:53:53.841 - Accepted ::1:51801
+[1617] 01 Jan 20:53:53.843 * DB saved on disk
+[1617] 01 Jan 20:53:53.846 - Client closed connection
+[1617] 01 Jan 20:53:53.847 - Accepted ::1:51802
+[1617] 01 Jan 20:53:53.849 - Client closed connection
+[1617] 01 Jan 20:53:53.850 - Accepted ::1:51803
+[1617] 01 Jan 20:53:53.852 * DB saved on disk
+[1617] 01 Jan 20:53:53.854 - Client closed connection
+[1617] 01 Jan 20:53:53.855 - Accepted ::1:51804
+[1617] 01 Jan 20:53:53.858 * DB saved on disk
+[1617] 01 Jan 20:53:53.860 - Client closed connection
+[1617] 01 Jan 20:53:53.860 - Accepted ::1:51805
+[1617] 01 Jan 20:53:53.863 * DB saved on disk
+[1617] 01 Jan 20:53:53.864 * DB saved on disk
+[1617] 01 Jan 20:53:53.866 - Client closed connection
+[1617] 01 Jan 20:53:53.867 - Accepted ::1:51806
+[1617] 01 Jan 20:53:53.870 * DB saved on disk
+[1617] 01 Jan 20:53:53.872 - Client closed connection
+[1617] 01 Jan 20:53:53.872 - Accepted ::1:51807
+[1617] 01 Jan 20:53:53.874 - Client closed connection
+[1617] 01 Jan 20:53:53.874 - Accepted ::1:51808
+[1617] 01 Jan 20:53:53.876 * DB saved on disk
+[1617] 01 Jan 20:53:53.877 - Client closed connection
+[1617] 01 Jan 20:53:53.879 - Accepted ::1:51809
+[1617] 01 Jan 20:53:53.883 * DB saved on disk
+[1617] 01 Jan 20:53:53.890 - Accepted ::1:51810
+[1617] 01 Jan 20:53:53.894 - Client closed connection
+[1617] 01 Jan 20:53:53.899 * DB saved on disk
+[1617] 01 Jan 20:53:53.901 - Client closed connection
+[1617] 01 Jan 20:53:53.901 - Accepted ::1:51811
+[1617] 01 Jan 20:53:53.911 - Client closed connection
+[1617] 01 Jan 20:53:53.913 - Accepted ::1:51812
+[1617] 01 Jan 20:53:53.940 - Client closed connection
+[1617] 01 Jan 20:53:53.940 - Accepted ::1:51813
+[1617] 01 Jan 20:53:53.976 * DB saved on disk
+[1617] 01 Jan 20:53:53.978 - Client closed connection
+[1617] 01 Jan 20:53:53.978 - Accepted ::1:51814
+[1617] 01 Jan 20:53:53.983 * DB saved on disk
+[1617] 01 Jan 20:53:53.990 - Accepted ::1:51815
+[1617] 01 Jan 20:53:53.999 - Accepted ::1:51816
+[1617] 01 Jan 20:53:54.001 - Client closed connection
+[1617] 01 Jan 20:53:54.002 - Accepted ::1:51817
+[1617] 01 Jan 20:53:54.005 - Client closed connection
+[1617] 01 Jan 20:53:54.106 - Client closed connection
+[1617] 01 Jan 20:53:54.113 * DB saved on disk
+[1617] 01 Jan 20:53:54.119 - Accepted ::1:51818
+[1617] 01 Jan 20:53:54.129 - Accepted ::1:51819
+[1617] 01 Jan 20:53:54.131 - Client closed connection
+[1617] 01 Jan 20:53:54.132 - Accepted ::1:51820
+[1617] 01 Jan 20:53:54.137 - Client closed connection
+[1617] 01 Jan 20:53:54.238 - Client closed connection
+[1617] 01 Jan 20:53:54.243 * DB saved on disk
+[1617] 01 Jan 20:53:54.248 - Accepted ::1:51821
+[1617] 01 Jan 20:53:54.259 - Accepted ::1:51822
+[1617] 01 Jan 20:53:54.262 - Client closed connection
+[1617] 01 Jan 20:53:54.262 - Accepted ::1:51823
+[1617] 01 Jan 20:53:54.812 - DB 0: 6 keys (0 volatile) in 8 slots HT.
+[1617] 01 Jan 20:53:54.813 - 3 clients connected (0 slaves), 1004992 bytes in use
+[1617] 01 Jan 20:53:55.273 - Client closed connection
+[1617] 01 Jan 20:53:55.277 - Client closed connection
+[1617] 01 Jan 20:53:55.283 * DB saved on disk
+[1617] 01 Jan 20:53:55.288 - Accepted ::1:51824
+[1617] 01 Jan 20:53:55.294 - Accepted ::1:51825
+[1617] 01 Jan 20:53:55.295 - Client closed connection
+[1617] 01 Jan 20:53:55.296 - Accepted ::1:51826
+[1617] 01 Jan 20:53:56.305 - Client closed connection
+[1617] 01 Jan 20:53:56.309 - Client closed connection
+[1617] 01 Jan 20:53:56.315 * DB saved on disk
+[1617] 01 Jan 20:53:56.316 * DB saved on disk
+[1617] 01 Jan 20:53:56.318 - Client closed connection
+[1617] 01 Jan 20:53:56.319 - Accepted ::1:51827
+[1617] 01 Jan 20:53:56.321 * DB saved on disk
+[1617] 01 Jan 20:53:56.322 * DB saved on disk
+[1617] 01 Jan 20:53:56.324 - Client closed connection
+[1617] 01 Jan 20:53:56.324 - Accepted ::1:51828
+[1617] 01 Jan 20:53:56.327 * DB saved on disk
+[1617] 01 Jan 20:53:56.328 * DB saved on disk
+[1617] 01 Jan 20:53:56.329 - Client closed connection
+[1617] 01 Jan 20:53:56.330 - Accepted ::1:51829
+[1617] 01 Jan 20:53:56.332 * DB saved on disk
+[1617] 01 Jan 20:53:56.332 * DB saved on disk
+[1617] 01 Jan 20:53:56.333 - Client closed connection
+[1617] 01 Jan 20:53:56.334 - Accepted ::1:51830
+[1617] 01 Jan 20:53:56.336 * DB saved on disk
+[1617] 01 Jan 20:53:56.336 * DB saved on disk
+[1617] 01 Jan 20:53:56.338 - Client closed connection
+[1617] 01 Jan 20:53:56.338 - Accepted ::1:51831
+[1617] 01 Jan 20:53:56.340 * DB saved on disk
+[1617] 01 Jan 20:53:56.342 - Client closed connection
+[1617] 01 Jan 20:53:56.342 - Accepted ::1:51832
+[1617] 01 Jan 20:53:56.344 * DB saved on disk
+[1617] 01 Jan 20:53:56.346 - Client closed connection
+[1617] 01 Jan 20:53:56.346 - Accepted ::1:51833
+[1617] 01 Jan 20:53:56.348 - Client closed connection
+[1617] 01 Jan 20:53:56.348 - Accepted ::1:51834
+[1617] 01 Jan 20:53:56.350 * DB saved on disk
+[1617] 01 Jan 20:53:56.352 - Client closed connection
+[1617] 01 Jan 20:53:56.353 - Accepted ::1:51835
+[1617] 01 Jan 20:53:56.357 - Client closed connection
+[1617] 01 Jan 20:53:56.357 - Accepted ::1:51836
+[1617] 01 Jan 20:53:56.360 * DB saved on disk
+[1617] 01 Jan 20:53:56.384 - Client closed connection
+[1617] 01 Jan 20:53:56.384 - Accepted ::1:51837
+[1617] 01 Jan 20:53:56.387 * DB saved on disk
+[1617] 01 Jan 20:53:56.390 - Client closed connection
+[1617] 01 Jan 20:53:56.391 - Accepted ::1:51838
+[1617] 01 Jan 20:53:56.392 - Client closed connection
+[1617] 01 Jan 20:53:56.393 - Accepted ::1:51839
+[1617] 01 Jan 20:53:56.395 - Client closed connection
+[1617] 01 Jan 20:53:56.395 - Accepted ::1:51840
+[1617] 01 Jan 20:53:56.397 - Client closed connection
+[1617] 01 Jan 20:53:56.398 - Accepted ::1:51841
+[1617] 01 Jan 20:53:56.399 - Client closed connection
+[1617] 01 Jan 20:53:56.400 - Accepted ::1:51842
+[1617] 01 Jan 20:53:56.402 - Client closed connection
+[1617] 01 Jan 20:53:56.402 - Accepted ::1:51843
+[1617] 01 Jan 20:53:56.405 - Client closed connection
+[1617] 01 Jan 20:53:56.405 - Accepted ::1:51844
+[1617] 01 Jan 20:53:56.407 - Client closed connection
+[1617] 01 Jan 20:53:56.408 - Accepted ::1:51845
+[1617] 01 Jan 20:53:56.410 - Client closed connection
+[1617] 01 Jan 20:53:56.411 - Accepted ::1:51846
+[1617] 01 Jan 20:53:56.413 - Client closed connection
+[1617] 01 Jan 20:53:56.414 - Accepted ::1:51847
+[1617] 01 Jan 20:53:56.418 - Client closed connection
+[1617] 01 Jan 20:53:56.418 - Accepted ::1:51848
+[1617] 01 Jan 20:53:56.423 * DB saved on disk
+[1617] 01 Jan 20:53:56.426 - Client closed connection
+[1617] 01 Jan 20:53:56.427 - Accepted ::1:51849
+[1617] 01 Jan 20:53:56.429 - Client closed connection
+[1617] 01 Jan 20:53:56.430 - Accepted ::1:51850
+[1617] 01 Jan 20:53:56.432 - Client closed connection
+[1617] 01 Jan 20:53:56.432 - Accepted ::1:51851
+[1617] 01 Jan 20:53:56.434 - Client closed connection
+[1617] 01 Jan 20:53:56.434 - Accepted ::1:51852
+[1617] 01 Jan 20:53:56.437 * DB saved on disk
+[1617] 01 Jan 20:53:56.445 * DB saved on disk
+[1617] 01 Jan 20:53:56.448 - Client closed connection
+[1617] 01 Jan 20:53:56.449 - Accepted ::1:51853
+[1617] 01 Jan 20:53:56.453 - Client closed connection
+[1617] 01 Jan 20:53:56.453 - Accepted ::1:51854
+[1617] 01 Jan 20:53:56.457 - Client closed connection
+[1617] 01 Jan 20:53:56.458 - Accepted ::1:51855
+[1617] 01 Jan 20:53:56.463 - Client closed connection
+[1617] 01 Jan 20:53:56.464 - Accepted ::1:51856
+[1617] 01 Jan 20:53:56.467 - Client closed connection
+[1617] 01 Jan 20:53:56.467 - Accepted ::1:51857
+[1617] 01 Jan 20:53:56.471 * DB saved on disk
+[1617] 01 Jan 20:53:56.474 - Client closed connection
+[1617] 01 Jan 20:53:56.475 - Accepted ::1:51858
+[1617] 01 Jan 20:53:56.479 - Client closed connection
+[1617] 01 Jan 20:53:56.480 - Accepted ::1:51859
+[1617] 01 Jan 20:53:56.484 - Client closed connection
+[1617] 01 Jan 20:53:56.484 - Accepted ::1:51860
+[1617] 01 Jan 20:53:56.487 - Client closed connection
+[1617] 01 Jan 20:53:56.487 - Accepted ::1:51861
+[1617] 01 Jan 20:53:56.491 - Client closed connection
+[1617] 01 Jan 20:53:56.492 - Accepted ::1:51862
+[1617] 01 Jan 20:53:56.496 * DB saved on disk
+[1617] 01 Jan 20:53:56.502 * DB saved on disk
+[1617] 01 Jan 20:53:56.536 - Client closed connection
+[1617] 01 Jan 20:53:56.537 - Accepted ::1:51863
+[1617] 01 Jan 20:53:56.551 * DB saved on disk
+[1617] 01 Jan 20:53:56.553 - Client closed connection
+[1617] 01 Jan 20:53:56.554 - Accepted ::1:51864
+[1617] 01 Jan 20:53:56.557 * DB saved on disk
+[1617] 01 Jan 20:53:56.558 * DB saved on disk
+[1617] 01 Jan 20:53:56.562 - Accepted ::1:51865
+[1617] 01 Jan 20:53:56.565 - Client closed connection
+[1617] 01 Jan 20:53:56.568 * DB saved on disk
+[1617] 01 Jan 20:53:56.569 * DB saved on disk
+[1617] 01 Jan 20:53:56.573 * DB saved on disk
+[1617] 01 Jan 20:53:56.574 * DB saved on disk
+[1617] 01 Jan 20:53:56.576 * DB saved on disk
+[1617] 01 Jan 20:53:56.578 * DB saved on disk
+[1617] 01 Jan 20:53:56.581 - Accepted ::1:51866
+[1617] 01 Jan 20:53:56.587 - Accepted ::1:51867
+[1617] 01 Jan 20:53:56.590 - Client closed connection
+[1617] 01 Jan 20:53:56.637 - Client closed connection
+[1617] 01 Jan 20:53:56.656 * DB saved on disk
+[1617] 01 Jan 20:53:56.663 - Accepted ::1:51868
+[1617] 01 Jan 20:53:56.669 - Accepted ::1:51869
+[1617] 01 Jan 20:53:56.674 - Client closed connection
+[1617] 01 Jan 20:53:56.720 - Client closed connection
+[1617] 01 Jan 20:53:56.737 * DB saved on disk
+[1617] 01 Jan 20:53:56.739 * DB saved on disk
+[1617] 01 Jan 20:53:56.740 - Client closed connection
+[1617] 01 Jan 20:53:56.741 - Accepted ::1:51870
+[1617] 01 Jan 20:53:56.743 * DB saved on disk
+[1617] 01 Jan 20:53:56.746 - Accepted ::1:51871
+[1617] 01 Jan 20:53:56.752 - Accepted ::1:51872
+[1617] 01 Jan 20:53:56.812 - Client closed connection
+[1617] 01 Jan 20:53:56.834 - Client closed connection
+[1617] 01 Jan 20:53:56.882 * DB saved on disk
+[1617] 01 Jan 20:53:56.886 - Accepted ::1:51873
+[1617] 01 Jan 20:53:56.892 - Client closed connection
+[1617] 01 Jan 20:53:56.893 - Accepted ::1:51874
+[1617] 01 Jan 20:53:56.894 - Client closed connection
+[1617] 01 Jan 20:53:56.895 - Accepted ::1:51875
+[1617] 01 Jan 20:53:56.897 - Client closed connection
+[1617] 01 Jan 20:53:56.904 * DB saved on disk
+[1617] 01 Jan 20:53:56.907 - Client closed connection
+[1617] 01 Jan 20:53:56.907 - Accepted ::1:51876
+[1617] 01 Jan 20:53:56.909 - Client closed connection
+[1617] 01 Jan 20:53:56.909 - Accepted ::1:51877
+[1617] 01 Jan 20:53:56.912 * DB saved on disk
+[1617] 01 Jan 20:53:56.914 - Client closed connection
+[1617] 01 Jan 20:53:56.915 - Accepted ::1:51878
+[1617] 01 Jan 20:53:56.917 * DB saved on disk
+[1617] 01 Jan 20:53:56.919 * DB saved on disk
+[1617] 01 Jan 20:53:56.922 * DB saved on disk
+[1617] 01 Jan 20:53:56.925 * DB saved on disk
+[1617] 01 Jan 20:53:56.930 - Accepted ::1:51879
+[1617] 01 Jan 20:53:56.936 - Accepted ::1:51880
+[1617] 01 Jan 20:53:56.938 - Client closed connection
+[1617] 01 Jan 20:53:56.939 - Accepted ::1:51881
+[1617] 01 Jan 20:53:57.443 - Client closed connection
+[1617] 01 Jan 20:53:57.546 - Client closed connection
+[1617] 01 Jan 20:53:57.552 * DB saved on disk
+[1617] 01 Jan 20:53:57.556 - Accepted ::1:51883
+[1617] 01 Jan 20:53:57.565 - Accepted ::1:51884
+[1617] 01 Jan 20:53:57.567 - Client closed connection
+[1617] 01 Jan 20:53:57.568 - Accepted ::1:51885
+[1617] 01 Jan 20:53:58.577 - Client closed connection
+[1617] 01 Jan 20:53:58.677 - Client closed connection
+[1617] 01 Jan 20:53:58.684 * DB saved on disk
+[1617] 01 Jan 20:53:58.689 * DB saved on disk
+[1617] 01 Jan 20:53:58.691 - Client closed connection
+[1617] 01 Jan 20:53:58.692 - Accepted ::1:51886
+[1617] 01 Jan 20:53:58.696 * DB saved on disk
+[1617] 01 Jan 20:53:58.700 - Client closed connection
+[1617] 01 Jan 20:53:58.701 - Accepted ::1:51887
+[1617] 01 Jan 20:53:58.703 * DB saved on disk
+[1617] 01 Jan 20:53:58.710 * DB saved on disk
+[1617] 01 Jan 20:53:58.718 * DB saved on disk
+[1617] 01 Jan 20:53:58.722 - Client closed connection
+[1617] 01 Jan 20:53:58.723 - Accepted ::1:51888
+[1617] 01 Jan 20:53:58.725 * DB saved on disk
+[1617] 01 Jan 20:53:58.726 - Client closed connection
+[1617] 01 Jan 20:53:58.727 - Accepted ::1:51889
+[1617] 01 Jan 20:53:58.729 * DB saved on disk
+[1617] 01 Jan 20:53:58.731 - Client closed connection
+[1617] 01 Jan 20:53:58.732 - Accepted ::1:51890
+[1617] 01 Jan 20:53:58.735 * DB saved on disk
+[1617] 01 Jan 20:53:58.739 - Client closed connection
+[1617] 01 Jan 20:53:58.739 - Accepted ::1:51891
+[1617] 01 Jan 20:53:58.741 * DB saved on disk
+[1617] 01 Jan 20:53:58.743 - Client closed connection
+[1617] 01 Jan 20:53:58.744 - Accepted ::1:51892
+[1617] 01 Jan 20:53:58.747 * DB saved on disk
+[1617] 01 Jan 20:53:58.751 - Accepted ::1:51893
+[1617] 01 Jan 20:53:58.758 - Accepted ::1:51894
+[1617] 01 Jan 20:53:58.759 - Client closed connection
+[1617] 01 Jan 20:53:58.760 - Accepted ::1:51895
+[1617] 01 Jan 20:53:58.764 - Client closed connection
+[1617] 01 Jan 20:53:58.767 - Client closed connection
+[1617] 01 Jan 20:53:59.851 - DB 0: 4 keys (0 volatile) in 8 slots HT.
+[1617] 01 Jan 20:53:59.851 - 1 clients connected (0 slaves), 970192 bytes in use
+[1617] 01 Jan 20:54:04.088 * DB saved on disk
+[1617] 01 Jan 20:54:04.092 * DB saved on disk
+[1617] 01 Jan 20:54:04.094 - Client closed connection
+[1617] 01 Jan 20:54:04.095 - Accepted ::1:51897
+[1617] 01 Jan 20:54:04.097 - Client closed connection
+[1617] 01 Jan 20:54:04.098 - Accepted ::1:51898
+[1617] 01 Jan 20:54:04.100 - Client closed connection
+[1617] 01 Jan 20:54:04.101 - Accepted ::1:51899
+[1617] 01 Jan 20:54:04.103 - Client closed connection
+[1617] 01 Jan 20:54:04.103 - Accepted ::1:51900
+[1617] 01 Jan 20:54:04.105 * DB saved on disk
+[1617] 01 Jan 20:54:04.107 - Client closed connection
+[1617] 01 Jan 20:54:04.107 - Accepted ::1:51901
+[1617] 01 Jan 20:54:04.109 * DB saved on disk
+[1617] 01 Jan 20:54:04.111 - Client closed connection
+[1617] 01 Jan 20:54:04.111 - Accepted ::1:51902
+[1617] 01 Jan 20:54:04.113 * DB saved on disk
+[1617] 01 Jan 20:54:04.115 * DB saved on disk
+[1617] 01 Jan 20:54:04.117 * DB saved on disk
+[1617] 01 Jan 20:54:04.118 - Client closed connection
+[1617] 01 Jan 20:54:04.119 - Accepted ::1:51903
+[1617] 01 Jan 20:54:04.121 * DB saved on disk
+[1617] 01 Jan 20:54:04.123 - Client closed connection
+[1617] 01 Jan 20:54:04.123 - Accepted ::1:51904
+[1617] 01 Jan 20:54:04.126 * DB saved on disk
+[1617] 01 Jan 20:54:04.128 * DB saved on disk
+[1617] 01 Jan 20:54:04.129 * DB saved on disk
+[1617] 01 Jan 20:54:04.131 - Client closed connection
+[1617] 01 Jan 20:54:04.132 - Accepted ::1:51905
+[1617] 01 Jan 20:54:04.134 * DB saved on disk
+[1617] 01 Jan 20:54:04.135 * DB saved on disk
+[1617] 01 Jan 20:54:04.138 * DB saved on disk
+[1617] 01 Jan 20:54:04.139 * DB saved on disk
+[1617] 01 Jan 20:54:04.140 * DB saved on disk
+[1617] 01 Jan 20:54:04.143 - Accepted ::1:51906
+[1617] 01 Jan 20:54:04.155 - Accepted ::1:51907
+[1617] 01 Jan 20:54:04.198 - Client closed connection
+[1617] 01 Jan 20:54:04.287 - Client closed connection
+[1617] 01 Jan 20:54:04.299 * DB saved on disk
+[1617] 01 Jan 20:54:04.303 - Client closed connection
+[1617] 01 Jan 20:54:04.304 - Accepted ::1:51908
+[1617] 01 Jan 20:54:04.306 * DB saved on disk
+[1617] 01 Jan 20:54:04.309 * DB saved on disk
+[1617] 01 Jan 20:54:04.318 * DB saved on disk
+[1617] 01 Jan 20:54:04.322 * DB saved on disk
+[1617] 01 Jan 20:54:04.323 * DB saved on disk
+[1617] 01 Jan 20:54:04.324 * DB saved on disk
+[1617] 01 Jan 20:54:04.328 * DB saved on disk
+[1617] 01 Jan 20:54:04.336 - Accepted ::1:51909
+[1617] 01 Jan 20:54:04.341 - Client closed connection
+[1617] 01 Jan 20:54:04.346 - Accepted ::1:51910
+[1617] 01 Jan 20:54:04.351 - Client closed connection
+[1617] 01 Jan 20:54:04.355 * DB saved on disk
+[1617] 01 Jan 20:54:04.356 * DB saved on disk
+[1617] 01 Jan 20:54:04.381 * DB saved on disk
+[1617] 01 Jan 20:54:04.384 - Client closed connection
+[1617] 01 Jan 20:54:04.385 - Accepted ::1:51911
+[1617] 01 Jan 20:54:04.387 - Client closed connection
+[1617] 01 Jan 20:54:04.387 - Accepted ::1:51912
+[1617] 01 Jan 20:54:04.518 - Client closed connection
+[1617] 01 Jan 20:54:04.885 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:54:04.886 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:54:09.910 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:54:09.911 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:54:14.943 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:54:14.944 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:54:19.976 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:54:19.976 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:54:25.019 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:54:25.019 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:54:30.042 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:54:30.042 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:54:35.080 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:54:35.080 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:54:40.115 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:54:40.115 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:54:45.157 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:54:45.157 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:54:50.190 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:54:50.190 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:54:55.223 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:54:55.223 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:55:00.255 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:55:00.255 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:55:05.289 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:55:05.289 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:55:10.328 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:55:10.328 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:55:15.366 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:55:15.366 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:55:20.403 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:55:20.403 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:55:25.438 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:55:25.439 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:55:30.482 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:55:30.482 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:55:35.502 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:55:35.502 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:55:40.542 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:55:40.542 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:55:45.573 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:55:45.573 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:55:50.610 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:55:50.610 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:55:55.642 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:55:55.643 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:56:00.682 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:56:00.682 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:56:05.716 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:56:05.716 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:56:10.748 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:56:10.748 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:56:15.791 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:56:15.791 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:56:20.821 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:56:20.821 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:56:25.849 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:56:25.849 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:56:30.884 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:56:30.884 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:56:35.913 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:56:35.913 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:56:40.951 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:56:40.951 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:56:45.987 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:56:45.987 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:56:51.027 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:56:51.027 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:56:56.060 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:56:56.060 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:57:01.105 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:57:01.105 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:57:06.125 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:57:06.126 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:57:11.160 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:57:11.161 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:57:16.191 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:57:16.191 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:57:21.240 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:57:21.241 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:57:26.281 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:57:26.281 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:57:31.318 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:57:31.318 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:57:36.339 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:57:36.339 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:57:41.372 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:57:41.372 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:57:46.416 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:57:46.416 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:57:51.448 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:57:51.449 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:57:56.470 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:57:56.470 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:58:01.503 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:58:01.503 - 0 clients connected (0 slaves), 953472 bytes in use
+[1617] 01 Jan 20:58:06.548 - DB 0: 6 keys (0 volatile) in 16 slots HT.
+[1617] 01 Jan 20:58:06.548 - 0 clients connected (0 slaves), 953472 bytes in use

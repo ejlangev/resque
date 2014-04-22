@@ -51,7 +51,9 @@ module Resque
 
     attr_accessor :term_timeout
 
-    attr_accessor :pre_term_timeout
+    attr_accessor :pre_shutdown_timeout
+
+    attr_accessor :shutdown_signal
 
     # decide whether to use new_kill_child logic
     attr_accessor :term_child
@@ -134,6 +136,7 @@ module Resque
       @queues = queues.map { |queue| queue.to_s.strip }
       @shutdown = nil
       @paused = nil
+      @shutdown_signal = 'TERM'
       validate_queues
     end
 
@@ -391,16 +394,21 @@ module Resque
     end
 
     def unregister_signal_handlers
-      trap('TERM') do
-        trap ('TERM') do
-          # ignore subsequent terms
+      trap(shutdown_signal) do
+        trap(shutdown_signal) do
+          # Ignore subsequent shutdown signals
         end
-        raise TermException.new("SIGTERM")
+
+        log! "Trapped #{shutdown_signal} in child #{Process.pid}; raising"
+        raise TermException.new("SIG#{shutdown_signal}")
       end
-      trap('INT', 'DEFAULT')
 
       begin
-        trap('QUIT', 'DEFAULT')
+        %w{TERM INT QUIT}.each do |signal|
+          next if shutdown_signal == signal
+          trap(signal, 'DEFAULT')
+        end
+
         trap('USR1', 'DEFAULT')
         trap('USR2', 'DEFAULT')
       rescue ArgumentError
@@ -458,12 +466,12 @@ module Resque
     def new_kill_child
       if @child
         unless child_already_exited?
-          if pre_term_timeout.to_f > 0.0
-            log! "Waiting #{pre_term_timeout.to_f}s for child process to exit"
-            return if wait_for_child_exit(pre_term_timeout)
+          if pre_shutdown_timeout && pre_shutdown_timeout > 0.0
+            log! "Waiting #{pre_shutdown_timeout.to_f}s for child process to exit"
+            return if wait_for_child_exit(pre_shutdown_timeout)
           end
-          log! "Sending TERM signal to child #{@child}"
-          Process.kill("TERM", @child)
+          log! "Sending #{shutdown_signal} signal to child #{@child}"
+          Process.kill(shutdown_signal, @child)
           return if wait_for_child_exit(term_timeout)
           log! "Sending KILL signal to child #{@child}"
           Process.kill("KILL", @child)
@@ -480,7 +488,7 @@ module Resque
     end
 
     def wait_for_child_exit(timeout)
-      (timeout.to_f * 10).round.times do |i|
+      (timeout * 10).round.times do |i|
         sleep(0.1)
         return true if child_already_exited?
       end
